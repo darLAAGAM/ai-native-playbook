@@ -1,7 +1,7 @@
 # The Compound Operations Model
 ## An Open-Source AI Operations Playbook for Consumer SMEs
 
-**By OperAI** · Open-source educational portfolio · Built inside a profitable brand growing 50%+ annually · Repo: https://github.com/darLAAGAM/ai-native-playbook (temporary placeholder before the future github.com/ai-native namespace)
+**By compAI** · Open-source educational portfolio · Built inside a profitable brand growing 50%+ annually · Repo: https://github.com/darLAAGAM/ai-native-playbook (temporary placeholder before the future github.com/ai-native namespace)
 
 ---
 
@@ -40,11 +40,6 @@ We've organized this playbook around the open operating model used in the refere
 
 | Ch. | Title | What You'll Learn |
 |-----|-------|-------------------|
-| 00 | [The Company Brain](00-the-brain.md) | The primitive that makes everything else possible |
-| 00a | [The 30-Second Company Brain](00a-30-second-brain.md) | The smallest viable brain, folder structure, and starter README |
-| 00b | [Live Dashboard — The Wow Factor Tour](00b-live-dashboard.md) | What is streaming, what is manual, and how to read the dashboard honestly |
-| 00c | [Downloadable Artifacts Index](00c-artifacts-index.md) | How to use the repo's templates, skills, prompts, patterns, integrations, and lessons |
-| 00d | [The Capability Maturity Ladder](00d-maturity-ladder.md) | L0-L5 autonomy mapped to real workflows, not vague ambition |
 | 01 | [Introduction](01-introduction.md) | Who built this, why, and what makes it different |
 | 02 | [The Problem](02-problem.md) | Why brands are stuck in operational quicksand |
 | 03 | [Architecture](03-architecture.md) | The multi-agent operating system blueprint |
@@ -62,17 +57,9 @@ We've organized this playbook around the open operating model used in the refere
 | 10b | [Memory Architecture](10b-memory-architecture.md) | Context Tree, Knowledge Mining cron, shared brain sync (SuperMemory deprecated) |
 | 10c | [The MCP Server](10c-mcp-server.md) | How your entire team gets AI superpowers — 44 tools, zero setup |
 | 10d | [Advanced Operational Capabilities](10d-advanced-capabilities.md) | 15 specialized features that compound over time — AutoResearch, LLM Council, Pattern Library, and more |
-| 10e | [Profit Throttle](10e-profit-throttle.md) | Dynamic break-even MER for paid marketing, with blended versus marginal efficiency |
-| 10f | [The Pattern Library](10f-pattern-library.md) | The cross-deployment compounding layer, schema, anonymization, and extraction loop |
-| 10g | [The Knowledge Mining Loop](10g-knowledge-mining.md) | How memory becomes durable docs, skills, patterns, and weekly digests |
-| 10h | [Council vs Punta de Flecha](10h-council-vs-flecha.md) | Which deliberation tool to use for breadth versus adversarial pressure |
-| 10i | [The Invoice Pipeline](10i-invoice-pipeline.md) | Inbox PDFs to Drive filing, Sheet logging, and accounting review |
-| 10j | [The Master Calendar](10j-master-calendar.md) | Why native calendar surfaces beat clever timelines |
-| 10k | [Consumer SME Stack Map](10k-stack-map.md) | Tool roles and alternatives across the consumer SME stack |
 | | **— Implementation —** | |
 | 11a | [Implementation Paths](11-implementation.md) | Read the playbook → fork the repo → run locally → adapt with human review → ask hello@useoperai.com for hands-on help |
 | 11b | [Lessons from Production](11b-production-lessons.md) | 32 lessons: OAuth failures, memory cleanup, model routing, anti-injection hardening, OpenClaw vs systemd, and more |
-| 11g | [The Failure Ledger](11g-failure-ledger.md) | One-line index of 32 production failures, fixes, and operating rules |
 | 11c | [OpenClaw Runtime Setup](11c-openclaw-setup.md) | Agent runtime framework — launchd plists, ChatGPT OAuth, cron scheduling |
 | 11d | [EU AI Act Compliance](11d-eu-ai-act-compliance.md) | Full compliance package — DPIA, AI System Register, Annex III guardrails, Article 50 transparency |
 | 11e | [Brand Bootstrap (1 cmd)](11e-brand-bootstrap.md) | From blank Ubuntu VPS to running swarm in one terminal command — `curl useoperai.com/init \| bash` |
@@ -80,7 +67,7 @@ We've organized this playbook around the open operating model used in the refere
 | 12 | [ROI Analysis](12-roi.md) | Real numbers from 6+ months in production |
 | 14 | [Team Onboarding](14-team-onboarding.md) | Connect every employee to the swarm in 5 minutes — brain access, agents, Google Workspace, zero setup |
 | | **— The Future —** | |
-| 15 | [The 5 Pillars (McKinsey)](15-five-pillars.md) | The agentic organization framework mapped to OperAI — the 1% network model, productized |
+| 15 | [The 5 Pillars (McKinsey)](15-five-pillars.md) | The agentic organization framework mapped to compAI — the 1% network model, productized |
 | 16 | [Agentic Governance](16-agentic-governance.md) | Three meta-agents (critic + guardrail + compliance) watching the seven domain agents |
 | 17 | [Agent Factory Pattern](17-agent-factory.md) | McKinsey 2-5/50-100 ratio: 7 domain agents → factories of 10+ specialized sub-agents each. CS reference shipped v2.6 |
 | 18 | [LLM Provider Abstraction](18-llm-providers.md) | 5-provider multi-LLM routing (Anthropic + OpenAI + Gemini + Qwen + MiniMax). Brand-owned API keys. Fallback chains. Per-sub-agent routing |
@@ -91,7 +78,7 @@ We've organized this playbook around the open operating model used in the refere
 
 ### How to Read This
 
-- **Founders/CEOs:** Read Ch. 00–03 and Ch. 12. That gives you the brain, the thesis, the architecture, and the business case.
+- **Founders/CEOs:** Read Ch. 1–3 and Ch. 12. That gives you the thesis, the architecture, and the business case.
 - **Ops/Tech Leads:** Read everything. Ch. 4–9 are your implementation guides. Ch. 11b is the production war stories that will save you days of debugging.
 - **Investors/Board:** Ch. 12 has the numbers you want. Ch. 3 has the architecture. Ch. 10c shows the team-wide impact.
 

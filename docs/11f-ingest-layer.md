@@ -202,7 +202,7 @@ These are tracked in the brain at `knowledge/projects/operai/brand-bootstrap-v0.
 
 ## What to tell a DPO who asks
 
-OperAI's ingest layer, as of v0.4:
+compAI's ingest layer, as of v0.4:
 
 - **Does not ingest** employee communications (Gmail personal, Slack DMs/private groups, arbitrary Notion/Drive).
 - **Does ingest** structured commercial data (Shopify catalog + aggregates, Klaviyo metrics, ad account metrics) with documented legal basis per source.
@@ -251,7 +251,7 @@ This section documents why Phase 2 (Gmail, Slack public channels, Notion, Google
 
 The 7 remaining Codex requirements — synchronous revocation via Notion webhooks, employee-domain detector separate from Art. 9, classifier validated against a labelled corpus with explicit recall targets and version pinning, Subject Registry behind a real service/DB boundary, leak-surface verifier covering `-wal`/`-shm`/temp/logs/backups/swap, encrypted admin-only Review Queue, per-document scope reclassification on upstream ACL changes — collectively represent **2-4 engineer-months** of compliance platform work.
 
-At a one-size-fits-all packaged SKU, the economics do not close. A brand that **actually needs** unstructured-source ingestion with DPO-grade compliance is paying for a bespoke implementation, not a productized tier. That's how professional services work everywhere else; OperAI will be honest about that line.
+At a one-size-fits-all packaged SKU, the economics do not close. A brand that **actually needs** unstructured-source ingestion with DPO-grade compliance is paying for a bespoke implementation, not a productized tier. That's how professional services work everywhere else; compAI will be honest about that line.
 
 ### What Phase 2 looks like now
 

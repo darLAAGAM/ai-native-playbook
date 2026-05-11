@@ -161,7 +161,7 @@ Running 7 agents on always-on hosts with API keys, brain access, and live busine
 
 Every agent on the secondary host runs **three persistent services**:
 
-1. **Gateway** — the OpenClaw agent itself (`com.operai.openclaw-gateway.<agent>.plist`)
+1. **Gateway** — the OpenClaw agent itself (`com.compai.openclaw-gateway.<agent>.plist`)
 2. **Watchdog** — monitors gateway health, auto-restarts on failure (every 5 minutes)
 3. **Port forwarder** — asyncio TCP proxy from Tailscale IP → loopback (`127.0.0.1:<port>`)
 

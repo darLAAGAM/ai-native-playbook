@@ -192,7 +192,7 @@ The story is complete on day one. What ships across v0.9.1–v0.9.3 is the "ligh
 - **v0.9.2**: webhook receivers for 4 helpdesks
 - **v0.9.3**: action executor via Guardrail meta-agent + retries + cost budget enforcement
 
-At that point, a deployed OperAI processes real tickets end-to-end at €0.002 each, with M-shaped supervisors reviewing ~20% of outputs, and 7-domain-agent parity with the McKinsey "50-100 specialized agents" benchmark.
+At that point, a deployed compAI processes real tickets end-to-end at €0.002 each, with M-shaped supervisors reviewing ~20% of outputs, and 7-domain-agent parity with the McKinsey "50-100 specialized agents" benchmark.
 
 ---
 

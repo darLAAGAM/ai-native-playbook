@@ -54,7 +54,7 @@ One time, per helpdesk:
 # 1. Expose the webhook receiver publicly
 operai-init tunnel webhook.acme.com      # routes → 127.0.0.1:8788 via Cloudflare
 
-# 2. Tell OperAI where it's exposed (for status displays)
+# 2. Tell compAI where it's exposed (for status displays)
 operai-init webhook set-endpoint https://webhook.acme.com
 
 # 3. Configure a provider — paste the signing secret from the helpdesk
@@ -110,7 +110,7 @@ operai-init digest status            # current counters + config
 Each digest shows:
 
 ```
-*OperAI digest — acme — 2026-04-21 08:00 UTC*
+*compAI digest — acme — 2026-04-21 08:00 UTC*
 
 • 4 tickets pending human review
 • 2 escalations on record (2 most recent below)
@@ -182,7 +182,7 @@ Honest scoping — this is still v3.0, not v4:
 Everything in this chapter is in the open-source repo. the founder's open-source inclusion rule holds through v3.0. What remains as separate tiers:
 
 - **Custom Ingest Engagement** (Ch.13 Path 3b, €5-15K): unstructured data ingestion (Gmail, Slack, Notion, Drive)
-- **Managed Operations** (Ch.13 Path 3a, €5-15K/mo): OperAI runs + tunes the full swarm for the brand
+- **Managed Operations** (Ch.13 Path 3a, €5-15K/mo): compAI runs + tunes the full swarm for the brand
 
 A buyer today goes from `curl useoperai.com/init` to autonomous helpdesk ticket processing in a single afternoon. That is the closest anyone has gotten to "a reference-deployment-in-a-box" without crossing into the custom engagement tiers.
 

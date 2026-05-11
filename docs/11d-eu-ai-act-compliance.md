@@ -153,7 +153,7 @@ Before August 2, 2026:
 
 ## What This Means for Sales
 
-**Compliance is a selling point, not a burden.** When you pitch OperAI to a European brand, you can say:
+**Compliance is a selling point, not a burden.** When you pitch compAI to a European brand, you can say:
 
 - "Every agent is classified by EU AI Act risk category"
 - "Graduated autonomy with confidence scoring — exactly what Article 14 requires"

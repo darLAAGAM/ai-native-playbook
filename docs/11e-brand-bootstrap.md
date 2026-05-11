@@ -6,7 +6,7 @@
 
 Every reader who makes it to this chapter has been wondering the same thing: *"OK, the architecture makes sense. The agents make sense. The compliance package makes sense. But what does it actually look like to deploy this for my brand?"*
 
-For the first 12 months of OperAI-inside-the-original-brand, the answer was: a 30-day activation path, a technical operator, and a lot of copy-paste. That path is documented end-to-end in the repo and it works — but it is not one command.
+For the first 12 months of compAI-inside-the-original-brand, the answer was: a 30-day activation path, a technical operator, and a lot of copy-paste. That path is documented end-to-end in the repo and it works — but it is not one command.
 
 As of April 2026, it is.
 
@@ -22,7 +22,7 @@ On a fresh Ubuntu 24.04 VPS with 4GB RAM and 2 cores, the script runs for ~30 mi
 
 | Component | State after install |
 |---|---|
-| `/opt/operai/` directory tree | created, owned by the `operai` system user |
+| `/opt/operai/` directory tree | created, owned by the `compai` system user |
 | Python 3, Node LTS, Docker, QMD 2.0.1, cloudflared | installed |
 | Brain with 6 QMD collections | seeded, first `qmd update` complete |
 | Discovery interview | captured as `knowledge/<brand>/discovery-interview.md` |
@@ -39,7 +39,7 @@ The script installs Python 3, Node LTS, Docker, `cloudflared`, `qmd`, and system
 
 ### Phase 2 — Filesystem layout (automated, <30 sec)
 
-A non-privileged `operai` system user owns `/opt/operai/`. The tree is:
+A non-privileged `compai` system user owns `/opt/operai/`. The tree is:
 
 ```
 /opt/operai/
@@ -130,7 +130,7 @@ Each command:
 - **Guides** the founder step-by-step through the platform's UI (where to click, which scopes to grant)
 - **Reads the token** with hidden input (never echoed to terminal, never written to shell history)
 - **Verifies** the token against a test API call before saving
-- **Writes** to `/opt/operai/credentials/<service>.json` with mode 600, owned by the `operai` user
+- **Writes** to `/opt/operai/credentials/<service>.json` with mode 600, owned by the `compai` user
 - **Updates** `/opt/operai/credentials/index.json` so `operai-init status` can report connection health
 
 Recommended scopes shipped with the repo are read-only where possible — e.g. Shopify gets `read_products`, `read_orders`, `read_customers`, `read_inventory` (no `write_` scopes until the founder explicitly enables writes for a specific agent). This keeps the blast radius minimal during the shadow-mode review period.
@@ -280,7 +280,7 @@ The pattern mirrors how the original brand did it: at 968 docs in the brain, rea
 | 0.4.0 | Planned | `operai-init ingest` for historical data pulls (Notion export, Drive, Slack 90d) |
 | 0.5.0 | Planned | `operai-init distil` for auto-generating 6 per-area contexts after 30d |
 
-The end state: a founder with no prior swarm experience can go from purchase to their first working agent in a single afternoon. The 30-day activation path documented earlier in this repo remains the reference implementation; `operai init` is the compressed, opinionated path for brands that want the defaults we learned the hard way.
+The end state: a founder with no prior swarm experience can go from purchase to their first working agent in a single afternoon. The 30-day activation path documented earlier in this repo remains the reference implementation; `compai init` is the compressed, opinionated path for brands that want the defaults we learned the hard way.
 
 ## Where to look next
 

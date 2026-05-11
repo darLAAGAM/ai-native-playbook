@@ -1,30 +1,28 @@
-# Consumer SME AI Portfolio — What We've Actually Built
+# Reference Brand AI Portfolio — What We've Actually Built
 
 *Created: 2026-05-11*  
-*Scope: public build-in-public, open-source educational portfolio rewrite*  
-*Anonymization rule: this document uses role names and generic consumer-business language. Reference paths are generalized where needed so the public draft remains brand-anonymous.*
+*Scope: internal inventory for a public editorial portfolio rewrite*  
+*Anonymization rule: this document uses role names and generic company language. Paths in the reference section are left intact so the work can be verified internally.*
 
 ---
 
 ## 1 · Executive Summary
 
-The reference brand is an 8-figure consumer brand that has been operating an AI-native internal system for more than a year. The important thing is not that it has chatbots. The important thing is that it built a shared operational substrate: a structured company brain, an MCP interface that exposes real business systems to AI clients, and a domain-specialized agent swarm that reads from and writes back to that substrate.
+The reference brand is a mid-sized direct-to-consumer retail company that has been operating an AI-native internal system for more than a year. The important thing is not that it has chatbots. The important thing is that it built a shared operational substrate: a structured company brain, an MCP interface that exposes real business systems to AI clients, and a domain-specialized agent swarm that reads from and writes back to that substrate.
 
-The system is now closer to an operating layer than a collection of assistants. A customer-service agent can read customer tickets and product policy. A finance agent can reconcile invoices and explain cash movement. A retail agent can connect retail-location traffic to sales conversion. A marketing agent can query ad, email, search, and copy performance. A merchandising agent can reason about sell-through by variant, allocation, and margin. A people-operations agent can answer policy and leave questions. A strategy hub and a technical execution interface sit above them.
+The system is now closer to an operating layer than a collection of assistants. A customer-service agent can read customer tickets and product policy. A finance agent can reconcile invoices and explain cash movement. A retail agent can connect store traffic to sales conversion. A marketing agent can query ad, email, search, and copy performance. A merchandising agent can reason about sell-through, allocation, and margin. A people-operations agent can answer policy and leave questions. A strategy hub and a technical execution interface sit above them.
 
 The strategic frame is simple: the brain is the primitive. Agents are replaceable. Models change. Tools get added and deprecated. The durable asset is the structured, executable memory of how the business works. The more decisions, bugs, patterns, scripts, policies, and operating lessons get crystallized into the brain, the cheaper it becomes to build the next agent or workflow.
-
-This portfolio is not a SaaS landing page. It is a build-in-public, open-source educational record: the artifacts should be downloadable, the examples should be concrete, and the live dashboard should prove the system is running. The repo placeholder is `github.com/[user]/ai-native-playbook`, with license language: Free to use, attribution requested.
 
 What is notable:
 
 - A live company brain with **1,324 markdown/QMD files in the current filesystem working copy**, **1,341+ docs indexed by the QMD/vector layer according to the MCP metadata**, and **1,665 total files** under the brain directory. Older public playbook pages still cite 409, 968, 1,341, and 44-tool snapshots; the real current system has moved beyond those numbers.
 - A production MCP server with **84 registered tool functions in `server.py`**, public Claude/Codex access through `https://mcp.<domain>/mcp` and legacy `/sse`, bearer-key auth in observe mode, tool-call health metrics, and an action ledger for mutations.
-- A swarm of **7 domain agents plus a founder/technical interface**, currently validated in the runtime registry: strategy hub, customer service, finance, retail, digital marketing, merchandising/category management with optional wholesale, HR/people, and Codex/Claude Code for technical execution and orchestration.
+- A swarm of **7 domain agents plus a founder/technical interface**, currently validated in the runtime registry: strategy hub, customer service, finance, retail, digital marketing, merchandising/wholesale, HR/people, and Codex/Claude Code for technical execution and orchestration.
 - A portfolio of advanced capabilities that were actually built: AutoResearch, LLM Council, Punta de Flecha, Profitability Engine, Profit Throttle, Pattern Library, invoice pipeline, copy engine, GEO, PR tracking, master calendar, factory runtime, helpdesk webhooks, and more.
 - A skills library currently exposing **310 skills via `skills_list`**. Separately, the filesystem contains **146 `SKILL.md` files** under the brain; older documents cite 167 or 183 skills. For public claims, use 310 if referring to the tool-exposed methodology library, and 146 if referring strictly to `SKILL.md` files on disk.
 
-The honest status: this is an educational portfolio, not a packaged product, and it is not L4 autonomy. Non-engineers still cannot extend every part of the system by themselves. Some current docs contradict one another. Several capabilities are production-validated inside the reference brand but not yet cleanly packaged for other companies. The system is strong because it has survived real incidents, not because it is neat.
+The honest status: this is not L4 autonomy. Non-engineers still cannot extend every part of the system by themselves. Some current docs contradict one another. Several capabilities are production-validated inside the reference brand but not yet cleanly packaged for other companies. The system is strong because it has survived real incidents, not because it is neat.
 
 ---
 
@@ -32,7 +30,7 @@ The honest status: this is an educational portfolio, not a packaged product, and
 
 ### What it is
 
-The insight: the company brain is the shared operational memory of a consumer SME. The mechanism is not a Notion workspace with a better search bar. It is a filesystem-native knowledge base designed to be consumed by agents and humans through tools. Every agent can search it. Claude Desktop users can search it. Codex can search it. Operational scripts can write to it.
+The brain is the shared operational memory of the company. It is not a Notion workspace with a better search bar. It is a filesystem-native knowledge base designed to be consumed by agents and humans through tools. Every agent can search it. Claude Desktop users can search it. Codex can search it. Operational scripts can write to it.
 
 The current canonical model has three layers:
 
@@ -51,7 +49,7 @@ Measured on the VPS working copy on 2026-05-11:
 | Total files under `brain/` | 1,665 | Includes markdown, JSON, configs, logs, and supporting files. |
 | Markdown/QMD files under `brain/` | 1,324 | Best filesystem count for public “documents” claim if being conservative. |
 | Docs indexed by MCP vector metadata | 1,341+ | Exposed in `brain_vsearch` tool description. This can exceed markdown count because collections include workspace/playbook mirrors. |
-| Reference-company domain knowledge files | 466 | Reference-company operating knowledge. |
+| Company-domain knowledge files | 466 | Company operating knowledge. |
 | `knowledge/platform` files | 259 | Agents, tools, config, auth, runbooks. |
 | `knowledge/projects` files | 48 | compAI and side projects. |
 | `knowledge/skills` files | 57 | Core skills folder; only one part of the broader skills library. |
@@ -69,7 +67,7 @@ The main directory shape is:
 ```text
 brain/
   knowledge/
-    company/      consumer-business operating knowledge
+    company/      company operating knowledge
     platform/     agent, MCP, auth, infra, setup, runbooks
     projects/     compAI and R&D projects
     skills/       executable and reference skills
@@ -152,7 +150,7 @@ The important portfolio point: a human does not need to know where the file live
 
 ### What it is
 
-The insight: MCP is the interface between AI clients and the company’s real systems. The mechanism exposes the brain, business APIs, agent control, filesystem, shell, memory, skills, and specialized workflows as callable tools.
+The MCP server is the interface between AI clients and the company’s real systems. It exposes the brain, business APIs, agent control, filesystem, shell, memory, skills, and specialized workflows as callable tools.
 
 It is the layer that turns “Claude can answer questions” into “Claude can read the company brain, query orders, inspect ads, read finance docs, ask an agent, write a durable learning, and produce a verified answer.”
 
@@ -203,7 +201,7 @@ gsc_search_analytics, gsc_top_queries, gsc_top_pages, gsc_inspect_url, gsc_sitem
 ga4_query, google_workspace,
 cash_position_today, cash_position_history, cash_position_set_manual, cash_position_reconcile, cash_position_anomalies,
 holded_leaves, exa_search, vercel_query,
-krea_generate, krea_status, upstash_redis, retail_partner_sales_query,
+krea_generate, krea_status, upstash_redis, wow_sales_query,
 skills_list, skill_read, skill_search,
 pinterest_ads_query, mcp_health, action_ledger_tail,
 mcp_auth_observe_tail, mcp_auth_inventory,
@@ -253,9 +251,9 @@ The tools that matter most to the operating model are:
 2. **`brain_read`**: read authoritative docs once a path is known.
 3. **`brain_write` / `brain_learn`**: capture durable knowledge, decisions, and gotchas.
 4. **`shopify_query` / `shopify_graphql`**: source of truth for orders, products, inventory, and sales.
-5. **`stockagile_query`**: inventory, warehouse, transfers, variants, and optional wholesale operations. Stockagile is the EU SME example; Cin7, NetSuite, Katana, ERPNext, or a vertical inventory system can play the same architectural role.
-6. **`klaviyo_query`**: email campaigns, flows, segments, and lifecycle performance. Klaviyo is the example; Sendgrid, Mailchimp, ActiveCampaign, Attentive, or Braze can fill the same slot.
-7. **`holded_query` / `holded_leaves`**: accounting, invoices, and reverse-engineered absence data. Holded is a typical EU SME system; QuickBooks, Xero, Sage, A3, NetSuite, or a local payroll tool can be equivalent.
+5. **`stockagile_query`**: inventory, warehouse, transfers, and wholesale operations.
+6. **`klaviyo_query`**: email campaigns, flows, segments, and lifecycle performance.
+7. **`holded_query` / `holded_leaves`**: accounting, invoices, and reverse-engineered absence data.
 8. **`meta_cli` / `meta_ads_query`**: paid media performance and campaign operations.
 9. **`google_workspace`**: Gmail, Drive, Docs, Sheets, Calendar, and service-account automations.
 10. **`agent_send`**: ask the correct domain agent instead of forcing a generic assistant to answer.
@@ -286,9 +284,9 @@ The canonical runtime registry as of 2026-05-06 lists seven production agents:
 | Strategy Hub | Strategy, founder support, coordination, brain stewardship | GPT-5.5 via Codex/OpenAI OAuth | Primary VPS | MCP / Slack / messaging relay |
 | CS Agent | Customer service, ticket drafting, policy-grounded replies | Claude Sonnet 4 with GPT fallback | Secondary host | Slack + messaging app |
 | Finance Agent | Reporting, cash, invoices, treasury, reconciliation | GPT-5.5 via Codex/OpenAI OAuth | Secondary host | Slack |
-| Retail Agent | Retail-location sales, traffic, POS, retail intelligence | GPT-5.5 via Codex/OpenAI OAuth | Secondary host | Slack |
+| Retail Agent | Store sales, traffic, POS, retail intelligence | GPT-5.5 via Codex/OpenAI OAuth | Secondary host | Slack |
 | Digital Marketing Agent | Ads, web, SEO, analytics, email lifecycle | GPT-5.5 via Codex/OpenAI OAuth | Secondary host | Slack |
-| Merchandising Agent | Assortment, allocation, pricing, optional wholesale/B2B ops | GPT-5.5 via Codex/OpenAI OAuth | Secondary host | Slack |
+| Merchandising Agent | Assortment, allocation, pricing, wholesale ops | GPT-5.5 via Codex/OpenAI OAuth | Secondary host | Slack |
 | HR / People Agent | Onboarding, leave, policies, payroll prep, expenses | GPT-5.5 via Codex/OpenAI OAuth | Secondary host | MCP / Slack pending auth review |
 
 There is also a founder-facing **Claude Code interface** and a **Codex technical executor**. Those are not domain agents. They are the orchestration and technical execution layer: strategy synthesis, code, scripts, debugging, adversarial review, and bulk processing.
@@ -317,7 +315,7 @@ There is also a founder-facing **Claude Code interface** and a **Codex technical
 
 **Domain owned:** customer-service tickets, customer policy questions, refund/change workflows, tracking issues, tone, and escalation.
 
-**Tools available:** brain, store policy search, product search/detail, helpdesk tickets such as Richpanel, Gorgias, Zendesk, or Intercom, ecommerce orders such as Shopify, BigCommerce, WooCommerce, or Magento, logistics/3PL data, and Slack/internal notes.
+**Tools available:** brain, store policy search, product search/detail, Richpanel tickets, Shopify orders, logistics/3PL data, Slack/internal notes.
 
 **Autonomy threshold:** public playbook describes tiering: routine tickets autonomous or drafted, higher-value or policy-sensitive cases reviewed, edge cases escalated. The internal current rule is stricter: the agent drafts internal notes and does not directly send to customers without a human layer in the current reference setup.
 
@@ -338,7 +336,7 @@ There is also a founder-facing **Claude Code interface** and a **Codex technical
 
 **Domain owned:** cash position, weekly reporting, invoice intake, treasury calendar, payables, reconciliations, credit-line alerts, financial anomalies.
 
-**Tools available:** accounting/ERP such as Holded, QuickBooks, Xero, Sage, A3, or NetSuite; expense tools such as Payhawk or Spendesk; Google Workspace; ecommerce data; banking exports through available connectors; brain finance docs; cash-position tools; invoice pipeline; and amortization alerts.
+**Tools available:** Holded, Payhawk, Google Workspace, Drive/Sheets, Shopify, banking exports through available connectors, brain finance docs, cash-position tools, invoice pipeline, amortization alerts.
 
 **Autonomy threshold:** high for read, reporting, reconciliation checks, alerts, and draft summaries. Human confirmation remains required for payments, approvals, and sensitive decisions.
 
@@ -356,18 +354,18 @@ There is also a founder-facing **Claude Code interface** and a **Codex technical
 
 ### Retail Agent
 
-**Domain owned:** retail-location performance, traffic, conversion, POS, staffing patterns, retail stock, and channel-specific diagnosis.
+**Domain owned:** physical store performance, traffic, conversion, POS, staffing patterns, retail stock, and channel-specific diagnosis.
 
-**Tools available:** POS/ecommerce data, inventory system, traffic counters such as TC Analytics or equivalent, brain retail docs, Google Sheets/Workspace, and team chat.
+**Tools available:** Shopify POS, Stockagile, TC Analytics, brain retail docs, Google Sheets/Workspace, Slack.
 
 **Autonomy threshold:** high for reporting, diagnosis, weekly snapshots, and recommendations. Lower for staffing decisions, partner escalations, and inventory movements that change stock position.
 
 **Key wins:**
 
 - Retail intelligence moved beyond “sales were up/down” into a four-lever model: exterior traffic × attraction × conversion × ticket.
-- TC Analytics integration unlocked foot-traffic and conversion analysis for retail locations with sensors.
-- Hit Dependency Index gives a way to classify locations as hero-SKU-dependent formats or broader flagship-style formats.
-- The agent can detect when a partner/channel operational change affects all locations versus one location.
+- TC Analytics integration unlocked foot-traffic and conversion analysis for stores with sensors.
+- Hit Dependency Index gives a way to classify stores as hit-driven boutiques or broader flagship-style locations.
+- The agent can detect when a partner/channel operational change affects all stores versus one store.
 
 **Failures and fixes:**
 
@@ -378,7 +376,7 @@ There is also a founder-facing **Claude Code interface** and a **Codex technical
 
 **Domain owned:** paid media, lifecycle email, SEO/GEO, analytics, copy performance, campaign calendars, PR tracking, and web performance.
 
-**Tools available:** lifecycle email platform such as Klaviyo, Sendgrid, Mailchimp, or ActiveCampaign; Meta/Pinterest/Google paid media; GA4; GSC; ecommerce data; Google Workspace; team chat; PR tracking sheets; copy engine; GEO tooling; and marketing calendar refresh.
+**Tools available:** Klaviyo, Meta, Pinterest, Google Ads through GA4, GA4, GSC, Shopify, Google Workspace, Slack, PR tracking sheets, copy engine, GEO tooling, marketing calendar refresh.
 
 **Autonomy threshold:** high for analysis, alerting, reporting, drafts, taxonomy, and recommendations. Human judgment remains necessary for creative direction and major budget moves.
 
@@ -392,29 +390,28 @@ There is also a founder-facing **Claude Code interface** and a **Codex technical
 
 **Failures and fixes:**
 
-- Vendor APIs can silently change or expire. Richpanel, Pinterest, and other vendor APIs both forced defensive health checks and token handling.
+- Vendor APIs can silently change or expire. Richpanel and Pinterest both forced defensive health checks and token handling.
 - Story webhooks can die silently; monitoring and metadata persistence were added after missed mentions.
 
 ### Merchandising Agent
 
-**Domain owned:** assortment, sell-through by variant, allocation, stock health, pricing/markdowns, reorder logic, optional wholesale/B2B operational support.
+**Domain owned:** assortment, sell-through, allocation, stock health, pricing/markdowns, reorder logic, wholesale operational support.
 
-**Tools available:** ecommerce catalog, inventory/ERP, 3PL, profitability outputs, sell-through-by-variant docs, optional wholesale/B2B rules, and brain product/finance/retail knowledge. Shopify and Stockagile are examples, not requirements.
+**Tools available:** Shopify, Stockagile, 3PL, profitability outputs, sell-through docs, wholesale rules, brain product/finance/retail knowledge.
 
-**Autonomy threshold:** high for analysis, weekly sell-through-by-variant reporting, allocation recommendations, and flagging markdown risk. Human judgment remains required for taste, buying, supplier negotiation, and major assortment changes.
+**Autonomy threshold:** high for analysis, weekly sell-through reporting, allocation recommendations, and flagging markdown risk. Human judgment remains required for taste, buying, supplier negotiation, and major assortment changes.
 
 **Key wins:**
 
-- Moves merchandising/category management from spreadsheet-based retrospectives to daily/weekly operating signals.
-- Connects product performance to channel, location, margin, stock position, and variant distribution: fit/spec, flavor, scent, color, bundle, model, or pack size depending on the vertical.
-- Flags markdown or action candidates using the same trigger logic across categories. In beauty, this might be a seasonal scent losing momentum. In food, a product nearing best-before with slow sell-through. In home goods, a colorway that is overstocked in one location. In fashion, remaining inventory on declining sell-through by variant.
-- Supports optional wholesale/B2B order creation through Stockagile v3 for bounded cases when that business model exists.
-- Uses profitability and retail signals to inform allocation, reorder, and markdown decisions.
+- Moves merchandising from spreadsheet-based retrospectives to daily/weekly operating signals.
+- Connects product performance to channel, location, margin, and stock position.
+- Supports wholesale order creation through Stockagile v3 for bounded cases.
+- Uses profitability and retail signals to inform allocation and markdown decisions.
 
 **Failures and fixes:**
 
 - Product and category knowledge goes stale quickly. Product launch checklists now need explicit brain updates.
-- Wholesale/B2B and inventory systems have endpoint gotchas; Stockagile URLs must avoid trailing slashes.
+- Wholesale and inventory systems have endpoint gotchas; Stockagile URLs must avoid trailing slashes.
 
 ### HR / People Agent
 
@@ -437,7 +434,7 @@ There is also a founder-facing **Claude Code interface** and a **Codex technical
 
 ### Claude Code and Codex interface
 
-The insight: the technical interface is an execution layer, not another business-domain agent.
+This is the technical execution and orchestration layer rather than a business-domain agent.
 
 **Claude Code owns:** intent capture, strategy conversation, orchestration, synthesis, short docs, routing tasks to agents or Codex.
 
@@ -449,8 +446,6 @@ The 2026-04-27 role-boundary doc is a major organizational artifact. It acknowle
 
 ## 5 · Advanced Capabilities
 
-Each capability below follows the same editorial rule: insight first, mechanism second, value captured third, and a practical starting path for another consumer SME. The downloadable artifact should be the smallest useful piece: schema, prompt, checklist, skill, or template.
-
 ### AutoResearch
 
 AutoResearch is a self-evolving prompt loop. The CS agent scores its own output quality by category, generates prompt mutations when a category underperforms, tests mutations against historical tickets, and promotes a mutation when it beats baseline by more than 5%.
@@ -458,14 +453,12 @@ AutoResearch is a self-evolving prompt loop. The CS agent scores its own output 
 How it works:
 
 1. Every response is scored by a separate model on correctness, tone, and policy compliance.
-2. Scores are aggregated by category: tracking, returns, fit/spec issues, order changes, complaints.
+2. Scores are aggregated by category: tracking, returns, sizing, order changes, complaints.
 3. Underperforming categories trigger 3-5 prompt mutations.
 4. Mutations are tested against the last 100 tickets in that category.
 5. Winning mutations are promoted; failed rounds alert a human.
 
 Value captured: prompt quality becomes empirical. The system reached 94.7% accuracy in one tracking-query category after three months, up from 89% at launch.
-
-**How to start this in your company.** Pick one measurable workflow before trying to optimize everything: tracking replies, refund decisions, creator outreach, invoice extraction, or weekly paid-media summaries. Export 50-100 historical examples, define a simple scorecard, and make the first loop compare one prompt against one proposed mutation. In month one, do not auto-promote changes; require a human to approve any prompt update and log the result in the brain. The artifact to download is a category scorecard plus mutation-test prompt.
 
 ### LLM Council
 
@@ -474,8 +467,6 @@ The LLM Council is a multi-perspective deliberation tool. It launches six domain
 The six perspectives are strategy, customer service, finance, retail, digital marketing, and merchandising. The important part is blind peer review: responses are shuffled and anonymized before reviewers score them on accuracy, insight, and actionability.
 
 Value captured: it reduces single-model “yes-man” failure for high-stakes but not irreversible questions. It is useful for vendor choices, positioning, market entry, budget debates, or post-mortems. It is not for quick factual lookup.
-
-**How to start this in your company.** Create six perspectives that match your actual operating model, not generic personas: founder/strategy, customer, finance, growth, operations, and category. Use it only for questions where disagreement is useful, such as whether to enter a marketplace, change returns policy, increase spend, launch a collaboration, or kill a slow product line. The minimum version is a single prompt that asks each perspective to answer independently, then asks for consensus, disagreement, confidence, and what evidence would change the conclusion. Store the final synthesis as a decision note in the brain.
 
 ### Punta de Flecha
 
@@ -489,8 +480,6 @@ Protocol:
 4. A final synthesis records consensus, resolved divergences, unresolved divergences, confidence, and red-team issues.
 
 Value captured: it found concrete errors in the Profit Throttle Framework, including static threshold mistakes, the need for dynamic break-even, and the need for marginal MER. It also lowered an overly optimistic AI-native maturity assessment. This is a real adversarial review loop, not a brainstorm.
-
-**How to start this in your company.** Use this only when being wrong is expensive: pricing frameworks, margin logic, hiring plans, supplier decisions, migration plans, or claims you want to publish. Run two different models or two genuinely different prompts, force each side to criticize the other, and stop only when remaining disagreement is explicit. The first month milestone is one adversarial review per major decision, with a short artifact recording consensus, unresolved risks, and the final owner decision. Downloadable artifact: adversarial convergence prompt plus decision-record template.
 
 ### Pattern Library
 
@@ -506,8 +495,6 @@ Current documented status:
 - Rules: no brand names, no employee names, no absolute financials, no location identifiers; only ratios, workflows, thresholds, and templates.
 
 Value captured: month-one deployments can start with month-six operational wisdom. This is one of the few real compounding moats in the system.
-
-**How to start this in your company.** Every time an incident, useful workflow, or repeatable decision appears, write it as a pattern with domain, trigger, mechanism, evidence, confidence, and where it does not apply. Keep it anonymous even inside the company if it might later be shared: ratios and workflows survive, employee names and sensitive numbers do not. In month one, aim for 10 patterns, not a platform. The artifact to download is the YAML pattern schema and a weekly extraction checklist.
 
 ### Profitability Engine v3
 
@@ -527,7 +514,7 @@ Architecture:
 Major bugs fixed:
 
 - VAT included in Shopify `subtotal_price`; fixed by subtracting `total_tax`.
-- Web orders fulfilled from retail locations were incorrectly counted as DTC; fixed with DTC fulfillment-location filtering.
+- Web orders fulfilled from physical locations were incorrectly counted as DTC; fixed with DTC fulfillment-location filtering.
 - Business plan Excel was stale; fixed with Google Sheet auto-refresh.
 - Meta pagination required `limit=500` and manual paging.
 - Pinterest API has a 90-day limit; fixed with clamping.
@@ -536,8 +523,6 @@ Major bugs fixed:
 - Validation needed YTD lookback, not short rolling windows.
 
 Value captured: marketing, finance, and merchandising make daily spend and product decisions against contribution margin, not vanity ROAS.
-
-**How to start this in your company.** Start with a daily contribution-margin sheet before building a dashboard. Pull ecommerce revenue from Shopify or equivalent, ad spend from paid platforms, COGS from ERP or product master, logistics/payment/returns from finance exports, and reconcile monthly against accounting close. The first milestone is not perfect attribution; it is a daily number close enough to change decisions, with a monthly delta against the P&L. The artifact to download is the contribution-margin schema and validation checklist.
 
 ### Profit Throttle Framework
 
@@ -552,8 +537,6 @@ The framework recalculates dynamic break-even MER daily based on returns, COGS, 
 
 Value captured: paid marketing moves from fixed ROAS targets to dynamic contribution-margin thresholds.
 
-**How to start this in your company.** Stop using one fixed ROAS target across every week, channel, and product mix. Calculate your dynamic break-even MER from current margin, return rate, payment fees, logistics, brand spend allocation, and target profit floor, then compare both blended and marginal efficiency. In month one, use it as a read-only traffic light for paid media decisions before allowing it to recommend budget moves. The artifact to download is the MER calculator and decision rubric.
-
 ### Knowledge Mining cron and `/learn`
 
 Knowledge Mining distills short-term memory into durable knowledge. The older memory architecture describes a daily cron that reads `memory/`, extracts durable patterns, routes them to the correct context-tree folder, updates indexes, and announces the mined changes.
@@ -561,8 +544,6 @@ Knowledge Mining distills short-term memory into durable knowledge. The older me
 The April second-brain upgrade added `brain_learn` and a `/learn` skill. Instead of making a human decide where a lesson belongs, the tool accepts a category, location, title, and content, then writes to the right place with timestamping.
 
 Value captured: the system reduces the lag between “we learned something” and “every future agent can use it.”
-
-**How to start this in your company.** Create a `/learn` habit before creating automation: every resolved bug, supplier gotcha, customer-policy exception, campaign learning, and API quirk gets written into a short structured note. Once the habit exists, add a weekly review that promotes durable lessons from daily memory into docs, skills, or checklists. The first month milestone is 20 captured learnings and five promoted into permanent operating docs. The artifact to download is the learning template and mining checklist.
 
 ### Invoice Pipeline
 
@@ -581,8 +562,6 @@ Initial backfill: 100 emails processed, 117 invoices registered. The current lim
 
 Value captured: invoice intake becomes daily, structured, searchable, and reviewable.
 
-**How to start this in your company.** Begin with one finance inbox and one tracking sheet. Detect PDFs, extract supplier, invoice number, tax ID, dates, amounts, VAT/tax, payment terms, and a confidence score, then file the original document in a predictable Drive folder. Do not auto-pay anything; the pipeline should create structured review work, not remove approval. The first month milestone is a backfill of 50-100 emails and a clear exception list for scanned PDFs or complex tables.
-
 ### Copy Engine
 
 The Copy Engine logs email and web copy performance, then extracts patterns for future campaign creation.
@@ -595,8 +574,6 @@ Documented findings include:
 
 Value captured: creative work gets a memory. Copy decisions cite prior evidence instead of relying only on taste.
 
-**How to start this in your company.** Export your last 100-1,000 campaigns with subject, preview text, body, CTA, send date, segment, revenue, open/click/conversion metrics, and launch context. Cluster by intent: new drop, replenishment, promo, education, creator proof, editorial, abandoned flow, winback. The minimum useful output is not generated copy; it is a list of patterns that worked, patterns that failed, and situations where taste beat the data. The artifact to download is the campaign-performance schema and pattern extraction prompt.
-
 ### GEO Optimization
 
 The marketing system tracks and optimizes visibility inside AI search engines. Promptwatch research changed the roadmap:
@@ -607,8 +584,6 @@ The marketing system tracks and optimizes visibility inside AI search engines. P
 - GEO is not classic SEO; being cited matters more than ranking for a keyword.
 
 Value captured: the brand prepares for discovery through ChatGPT, Perplexity, Claude, Gemini, and AI Overviews rather than only Google SERPs.
-
-**How to start this in your company.** Pick five buying questions your customers might ask an AI engine, then audit whether your site has concise, citable answers with definitions, comparisons, tables, and expert signals. Do not start with `llms.txt`; start with content that can actually be cited. In month one, rewrite 10 pages or guides around answerability, not keyword stuffing. The artifact to download is the AI-search content checklist and query audit sheet.
 
 ### PR Tracking
 
@@ -623,11 +598,9 @@ Built pieces:
 
 Failure captured: webhook downtime caused lost story mentions because stories expire after 24 hours. The system now treats story capture as time-sensitive infrastructure.
 
-**How to start this in your company.** Decide what counts as a mention: tagged posts, stories, creator content, press articles, newsletters, podcasts, retail partner features, or offline clippings. Build one sheet with source, URL, date, audience estimate, media, engagement, value estimate, and capture status. The urgent first automation is expiring media, especially stories; if you miss the 24-hour window, the evidence disappears. The artifact to download is the clipping schema and daily capture checklist.
-
 ### Master Calendar
 
-The Master Calendar consolidated operational, marketing, ecommerce, optional wholesale/B2B, finance, retail/channel, and cross-department events into seven Google sub-calendars. A food business might include production batches and best-before windows; a beauty business might include formulation, launch, creator, and replenishment dates; a home brand might include supplier lead times, drop dates, retail activations, and content shoots.
+The Master Calendar consolidated operational, marketing, ecommerce, wholesale, finance, retail, and cross-department events into seven Google sub-calendars.
 
 The critical product lesson: the first Notion timeline/calendar attempts were rejected because they did not match how the team works. The winning solution was native Google Calendar, because the team already uses it.
 
@@ -640,8 +613,6 @@ Current architecture:
 - Current snapshot showed 319 events across the seven calendars.
 
 Value captured: operational dates moved from fragmented docs into the surface the team already checks.
-
-**How to start this in your company.** Do not invent a new calendar surface if the team already lives in Google Calendar or Outlook. Define the seven or fewer event streams that actually drive work: launches, content, retail/channel, finance, supplier, operations, people, or wholesale if relevant. In month one, sync read-only events from existing sheets/docs into native calendars and watch whether the team uses it without training. The artifact to download is the event taxonomy and sync spec.
 
 ### Agent Factory
 
@@ -657,8 +628,6 @@ What shipped:
 What did not initially ship: runtime orchestration. The first factory release was static artifacts plus CLI install. Later releases added runtime.
 
 Value captured: it points to a future where a single business domain is not one giant prompt, but a factory of specialized workers.
-
-**How to start this in your company.** Take one domain with repeatable intake and split the work into sub-agents only where the steps are genuinely different. For CS, that might be classifier, policy lookup, order lookup, logistics lookup, refund evaluator, tone editor, and reviewer. For marketing, it might be brief parser, audience checker, offer checker, copywriter, compliance reviewer, and performance logger. The first artifact is a `factory.yml` that declares inputs, outputs, order, and review gates before any runtime is built.
 
 ### Factory Runtime and Autonomous MVP
 
@@ -684,8 +653,6 @@ Smoke tests showed the daemon could pick up an event, run 10 sub-agents, write r
 
 Value captured: the repo moved from installable infrastructure to a demonstrable autonomous event processor.
 
-**How to start this in your company.** Make the first runtime boring: a folder-based event queue, one sample event type, sequential execution, trace files, and a human review queue. Only add parallelism, hooks, dashboards, and budget enforcement after the traces are readable and the review output is useful. The first month milestone is one workflow that can process 20 test events end to end without losing context. The artifact to download is the event schema, trace schema, and review-queue folder structure.
-
 ### Webhooks and Slack Digest
 
 The v3.0 stable repo added helpdesk webhooks and daily digest:
@@ -700,8 +667,6 @@ Scope still not done: action executor, retries, cost budget enforcement, guardra
 
 Value captured: customer events can enter the agent system automatically instead of via manual file drops.
 
-**How to start this in your company.** Start with read-only ingestion from one system: helpdesk, Shopify, a form, or a spreadsheet change. Verify signatures where available, normalize events into one canonical shape, and write them to the queue before any agent touches them. The digest should show counts, failures, pending reviews, and examples, not vanity activity. The artifact to download is the canonical event schema and digest template.
-
 ### Agent with corporate card
 
 A lightweight but symbolically important capability: the strategy hub has a limited corporate card for approved autonomous purchases. The documented limit is small, deliberately bounded.
@@ -711,8 +676,6 @@ Value captured: autonomy is not just “answering.” It can include controlled 
 ---
 
 ## 6 · Skills Library
-
-**How to start this in your company.** Do not start with autonomous spending; start with explicit bounded purchase classes, a tiny limit, receipts required, and a ledger entry for every attempt. Good first uses are low-risk operational purchases: software trial, stock image, domain, small SaaS credit, or a shipping label test. The first month milestone is proving that approvals, receipts, and reconciliation work before increasing limits. The artifact to download is the spend-policy prompt and card-action ledger schema.
 
 ### Current counts
 
@@ -802,7 +765,7 @@ The production system runs on a dual-host architecture:
 - **FastMCP / Starlette / Uvicorn**: MCP server implementation.
 - **Systemd and LaunchDaemons**: Linux and macOS service management.
 - **Vercel**: public/demo web surfaces and dashboards.
-- **Business systems**: ecommerce, inventory, ERP/accounting, email marketing, ads, analytics, customer support, logistics, expense management, docs, and team chat. Shopify is the common SME example, but BigCommerce, WooCommerce, Magento, or a custom storefront can occupy the ecommerce slot.
+- **Business systems**: ecommerce, inventory, ERP/accounting, email marketing, ads, analytics, customer support, logistics, expense management, docs, Slack.
 
 ### Cost
 
@@ -890,7 +853,7 @@ The team learned the hard parts of running agents: macOS service management, OAu
 
 ### Early April 2026: Advanced capabilities discovered
 
-A full swarm audit and compAI update sprint surfaced 15 hidden capabilities that were not clearly represented in the public materials: AutoResearch, invoice pipeline, Council, PR tracking, GEO, profitability, amortization alerts, copy engine, transcription, agent card, optional wholesale/B2B order creation, model optimization, injection hardening, multi-currency, and Taskmaster.
+A full swarm audit and compAI update sprint surfaced 15 hidden capabilities that were not clearly represented in the public materials: AutoResearch, invoice pipeline, Council, PR tracking, GEO, profitability, amortization alerts, copy engine, transcription, agent card, wholesale order creation, model optimization, injection hardening, multi-currency, and Taskmaster.
 
 This was the moment the story shifted from “we have agents” to “we have an operating system with accumulated capabilities.”
 
@@ -947,11 +910,11 @@ Current status: AI-native in operating behavior, not yet fully AI-native in orga
 
 ## 10 · What Each Employee Now Does Differently
 
-### The customer-service lead
+### The CS lead
 
-Before AI: the customer-service lead answered repetitive “where is my order,” return, fit/spec, policy, and complaint questions by switching between helpdesk, ecommerce admin, logistics, and internal docs. Policy edge cases lived in memory or Slack.
+Before AI: the CS lead answered repetitive “where is my order,” return, size, policy, and complaint questions by switching between helpdesk, ecommerce admin, logistics, and internal docs. Policy edge cases lived in memory or Slack.
 
-Now: the customer-service lead reviews agent drafts, handles escalations, improves policy docs, and looks for patterns. Routine tracking questions can be resolved through parallel order + logistics lookup. The agent remembers policy and writes internal notes. The human spends more time on VIP cases, tone, and exceptions.
+Now: the CS lead reviews agent drafts, handles escalations, improves policy docs, and looks for patterns. Routine tracking questions can be resolved through parallel order + logistics lookup. The agent remembers policy and writes internal notes. The human spends more time on VIP cases, tone, and exceptions.
 
 ### The finance lead
 
@@ -959,23 +922,23 @@ Before AI: invoices arrived in inboxes, PDFs were manually saved, spreadsheets w
 
 Now: invoice intake runs daily, PDFs are organized, key fields enter Sheets, amortization alerts fire before due dates, and the finance agent can answer natural-language questions against accounting, expense, and cash docs. The human reviews exceptions, approves payments, and makes judgments.
 
-### The retail / channel lead
+### The retail lead
 
-Before AI: retail-location performance meant revenue reports, anecdotal staff feedback, and delayed diagnosis. Traffic, attraction, conversion, and ticket size were not always decomposed.
+Before AI: store performance meant revenue reports, anecdotal staff feedback, and delayed diagnosis. Traffic, attraction, conversion, and ticket size were not always decomposed.
 
-Now: retail-location performance can be decomposed into exterior traffic, attraction, conversion, and average ticket. The retail / channel lead can ask which lever changed, not just whether sales changed. Partner/channel reports are treated with source-of-truth rules.
+Now: store performance can be decomposed into exterior traffic, attraction, conversion, and average ticket. The retail lead can ask which lever changed, not just whether sales changed. Partner/channel reports are treated with source-of-truth rules.
 
-### The digital marketing / growth lead
+### The digital marketing lead
 
 Before AI: marketing analysis required pulling from Klaviyo, Meta, GA4, GSC, Shopify, and spreadsheets. Copy learnings lived in taste and scattered retrospectives.
 
 Now: campaign performance, copy patterns, GEO opportunities, paid-media health checks, and PR tracking are queryable. The marketing lead uses AI to detect fatigue, summarize performance, draft campaign copy with cited patterns, and prioritize content work.
 
-### The buyer / category manager / merchandising lead
+### The buyer / merchandising lead
 
-Before AI: sell-through by variant, allocation, markdown risk, replenishment, and channel splits were spreadsheet-heavy and often late. The variant might be size, flavor, scent, color, bundle, model, or pack format.
+Before AI: sell-through, allocation, markdown risk, and channel splits were spreadsheet-heavy and often late.
 
-Now: the merchandising agent can pull product, stock, location, sales, variant distribution, and profitability signals into one analysis. The human still makes taste, buying, supplier, and category decisions, but the analytical foundation is faster and more consistent.
+Now: the merchandising agent can pull product, stock, location, sales, and profitability signals into one analysis. The human still makes taste and buying decisions, but the analytical foundation is faster and more consistent.
 
 ### The people / office owner
 
@@ -1041,8 +1004,8 @@ Now: Codex can read the brain, execute on the VPS, inspect source, write scripts
 - `knowledge/platform/tools/mcp-server-guide.md`
 - `knowledge/platform/tools/council-query-guide.md`
 - `knowledge/platform/tools/council-skill-guide.md`
-- `knowledge/platform/tools/brand-mcp.md`
-- `knowledge/platform/tools/brand-mcp-troubleshooting.md`
+- `knowledge/platform/tools/laagam-mcp.md`
+- `knowledge/platform/tools/laagam-mcp-troubleshooting.md`
 - `knowledge/platform/tools/shopify-mcp-integration.md`
 - `knowledge/platform/tools/codex-cli-setup.md`
 - `knowledge/platform/BRAIN_PROTOCOL.md`
@@ -1055,58 +1018,58 @@ Now: Codex can read the brain, execute on the VPS, inspect source, write scripts
 
 ### compAI playbook and project docs
 
-- `operai/playbook/00-the-brain.md`
-- `operai/playbook/03-architecture.md`
-- `operai/playbook/04-agent-cs.md`
-- `operai/playbook/05-agent-ops.md`
-- `operai/playbook/06-agent-finance.md`
-- `operai/playbook/07-agent-marketing.md`
-- `operai/playbook/09-agent-retail.md`
-- `operai/playbook/09b-agent-merchandising.md`
-- `operai/playbook/09c-agent-hr.md`
-- `operai/playbook/10-stack.md`
-- `operai/playbook/10b-memory-architecture.md`
-- `operai/playbook/10c-mcp-server.md`
-- `operai/playbook/10d-advanced-capabilities.md`
-- `operai/playbook/11b-production-lessons.md`
-- `operai/playbook/11f-ingest-layer.md`
-- `operai/playbook/16-agentic-governance.md`
-- `operai/playbook/17-agent-factory.md`
-- `operai/playbook/18-llm-providers.md`
-- `operai/playbook/19-factory-runtime.md`
-- `operai/playbook/20-mvp-runtime.md`
-- `operai/playbook/21-webhooks-digest.md`
-- `operai/playbook/22-onboarding-experience.md`
-- `operai/playbook/PLAN-v1.7.md`
-- `operai/playbook/RESEARCH-2026-04-08.md`
-- `operai/playbook/RESEARCH-2026-04-10.md`
-- `knowledge/projects/compai/_index.md`
-- `knowledge/projects/compai/2026-04-27-anonymization-phase-complete.md`
-- `knowledge/projects/compai/agent-factory-v0.6.md`
-- `knowledge/projects/compai/brand-bootstrap-v0.1.md`
-- `knowledge/projects/compai/brand-bootstrap-v0.2.md`
-- `knowledge/projects/compai/brand-bootstrap-v0.3.md`
-- `knowledge/projects/compai/brand-bootstrap-v0.4.md`
-- `knowledge/projects/compai/brand-bootstrap-v0.5.md`
-- `knowledge/projects/compai/factory-runtime-v0.9.0.md`
-- `knowledge/projects/compai/repo-v3.0-beta-mvp.md`
-- `knowledge/projects/compai/repo-v3.0-stable.md`
-- `knowledge/projects/compai/playbook-v1.7-update.md`
-- `knowledge/projects/compai/audits/day1-crosscheck-2026-04-26.md`
-- `knowledge/projects/compai/audits/playbook-buyer-nontechnical-audit-2026-04-27.md`
+- `compai/playbook/00-the-brain.md`
+- `compai/playbook/03-architecture.md`
+- `compai/playbook/04-agent-cs.md`
+- `compai/playbook/05-agent-ops.md`
+- `compai/playbook/06-agent-finance.md`
+- `compai/playbook/07-agent-marketing.md`
+- `compai/playbook/09-agent-retail.md`
+- `compai/playbook/09b-agent-merchandising.md`
+- `compai/playbook/09c-agent-hr.md`
+- `compai/playbook/10-stack.md`
+- `compai/playbook/10b-memory-architecture.md`
+- `compai/playbook/10c-mcp-server.md`
+- `compai/playbook/10d-advanced-capabilities.md`
+- `compai/playbook/11b-production-lessons.md`
+- `compai/playbook/11f-ingest-layer.md`
+- `compai/playbook/16-agentic-governance.md`
+- `compai/playbook/17-agent-factory.md`
+- `compai/playbook/18-llm-providers.md`
+- `compai/playbook/19-factory-runtime.md`
+- `compai/playbook/20-mvp-runtime.md`
+- `compai/playbook/21-webhooks-digest.md`
+- `compai/playbook/22-onboarding-experience.md`
+- `compai/playbook/PLAN-v1.7.md`
+- `compai/playbook/RESEARCH-2026-04-08.md`
+- `compai/playbook/RESEARCH-2026-04-10.md`
+- `knowledge/projects/operai/_index.md`
+- `knowledge/projects/operai/2026-04-27-anonymization-phase-complete.md`
+- `knowledge/projects/operai/agent-factory-v0.6.md`
+- `knowledge/projects/operai/brand-bootstrap-v0.1.md`
+- `knowledge/projects/operai/brand-bootstrap-v0.2.md`
+- `knowledge/projects/operai/brand-bootstrap-v0.3.md`
+- `knowledge/projects/operai/brand-bootstrap-v0.4.md`
+- `knowledge/projects/operai/brand-bootstrap-v0.5.md`
+- `knowledge/projects/operai/factory-runtime-v0.9.0.md`
+- `knowledge/projects/operai/repo-v3.0-beta-mvp.md`
+- `knowledge/projects/operai/repo-v3.0-stable.md`
+- `knowledge/projects/operai/playbook-v1.7-update.md`
+- `knowledge/projects/operai/audits/day1-crosscheck-2026-04-26.md`
+- `knowledge/projects/operai/audits/playbook-buyer-nontechnical-audit-2026-04-27.md`
 
 ### Company operating samples
 
-- `knowledge/reference-company/finance/profitability-engine-master.md`
-- `knowledge/reference-company/finance/profit-throttle-framework.md`
-- `knowledge/reference-company/finance/invoice-pipeline-2026.md`
-- `knowledge/reference-company/finance/agent_credit_card.md`
-- `knowledge/reference-company/operations/master-calendar-reference-company.md`
-- `knowledge/reference-company/marketing/copy-engine-nl-web-insights.md`
-- `knowledge/reference-company/marketing/geo-promptwatch-learnings.md`
-- `knowledge/reference-company/marketing/pr-tracking-system.md`
-- `knowledge/reference-company/retail/00_retail_intelligence_principles.md`
-- `knowledge/reference-company/team/onboarding-ai-obligatorio.md`
+- `knowledge/laagam/finance/profitability-engine-master.md`
+- `knowledge/laagam/finance/profit-throttle-framework.md`
+- `knowledge/laagam/finance/invoice-pipeline-2026.md`
+- `knowledge/laagam/finance/agent_credit_card.md`
+- `knowledge/laagam/operations/master-calendar-laagam.md`
+- `knowledge/laagam/marketing/copy-engine-nl-web-insights.md`
+- `knowledge/laagam/marketing/geo-promptwatch-learnings.md`
+- `knowledge/laagam/marketing/pr-tracking-system.md`
+- `knowledge/laagam/retail/00_retail_intelligence_principles.md`
+- `knowledge/laagam/team/onboarding-ai-obligatorio.md`
 
 ### Memory files examined
 
@@ -1114,13 +1077,13 @@ Now: Codex can read the brain, execute on the VPS, inspect source, write scripts
 - `memory/2026-04-13-diego-weekly-email-gap.md`
 - `memory/2026-04-13-diego-weekly-emails-2026.md`
 - `memory/2026-04-13-ow-launch-draft-full-validation.md`
-- `memory/2026-04-13-retail-channel-monday-sunday-gross-breakdown.md`
-- `memory/2026-04-13-retail-channel-ow-csv-validation.md`
-- `memory/2026-04-13-retail-channel-weekly-april-breakdown.md`
+- `memory/2026-04-13-wow-monday-sunday-gross-breakdown.md`
+- `memory/2026-04-13-wow-ow-csv-validation.md`
+- `memory/2026-04-13-wow-weekly-april-breakdown.md`
 - `memory/2026-04-17-audit-and-refactor.md`
 - `memory/2026-04-17-mcp-event-loop-fix.md`
 - `memory/2026-04-17-second-brain-upgrade.md`
-- `memory/2026-04-20-retail-channel-weekly-13-19-april.md`
+- `memory/2026-04-20-wow-weekly-13-19-april.md`
 - `memory/2026-04-25.md`
 - `memory/2026-04-26.md`
 - `memory/2026-04-27.md`
@@ -1131,19 +1094,17 @@ Now: Codex can read the brain, execute on the VPS, inspect source, write scripts
 - `find brain -type f | wc -l`
 - `find brain -type f \( -name '*.md' -o -name '*.qmd' \) | wc -l`
 - `find brain/knowledge -mindepth 1 -maxdepth 1 -type d...`
-- Regex parse of `services/brand-mcp/server.py` for `@mcp.tool()` registrations.
+- Regex parse of `services/laagam-mcp/server.py` for `@mcp.tool()` registrations.
 - `skills_list` MCP call for tool-exposed skills.
 - `find brain -path '*/SKILL.md' | wc -l`
 - `mcp_health` for runtime health snapshot.
-- Direct parse of `/var/log/brand-mcp.log` for logged tool-call counts.
+- Direct parse of `/var/log/laagam-mcp.log` for logged tool-call counts.
 
 ---
 
 ## Final Notes for the Web Redesign
 
-The strongest public story is not “buy our AI system.” It is “study the artifacts, copy the primitives, and adapt them to your own consumer business.” The site should let an operator understand the brain primitive in 30 seconds, read concrete capability examples, download the underlying artifact, see a live dashboard, and contact discreetly for hands-on help.
-
-The story is:
+The strongest public story is not “we built a perfect AI company.” It is:
 
 1. We built a company brain.
 2. We connected it to real systems through MCP.
