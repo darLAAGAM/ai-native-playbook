@@ -219,8 +219,8 @@ The current server has:
 - API key inventory: 20 keys loaded in current health output.
 - Auth observe logs in the brand MCP state directory.
 - Mutation action ledger in the brand MCP state directory.
-- ACL groups in the OperAI kit and ingest layer design.
-- Key management in the kit via `operai-init key create/list/revoke`.
+- ACL groups in the OperAI repo and ingest layer design.
+- Key management in the repo via `operai-init key create/list/revoke`.
 
 The current session could not read `action_ledger_tail` or `mcp_auth_inventory` through normal MCP because admin token was required. Direct filesystem access showed the action ledger exists and contains mutation records. This is a good sign: admin observability exists, and non-admin clients cannot casually inspect it.
 
@@ -682,13 +682,13 @@ The v3.0-beta autonomous MVP added:
 
 Smoke tests showed the daemon could pick up an event, run 10 sub-agents, write review output and trace, and archive the event.
 
-Value captured: the kit moved from installable infrastructure to a demonstrable autonomous event processor.
+Value captured: the repo moved from installable infrastructure to a demonstrable autonomous event processor.
 
 **How to start this in your company.** Make the first runtime boring: a folder-based event queue, one sample event type, sequential execution, trace files, and a human review queue. Only add parallelism, hooks, dashboards, and budget enforcement after the traces are readable and the review output is useful. The first month milestone is one workflow that can process 20 test events end to end without losing context. The artifact to download is the event schema, trace schema, and review-queue folder structure.
 
 ### Webhooks and Slack Digest
 
-The v3.0 stable kit added helpdesk webhooks and daily digest:
+The v3.0 stable repo added helpdesk webhooks and daily digest:
 
 - HTTP webhook receiver on localhost service.
 - Normalizers for Richpanel, Gorgias, Zendesk, and Intercom.
@@ -910,9 +910,9 @@ The Ryan/Mercury-inspired second-brain pass shipped three P0 upgrades:
 
 This moved the system closer to AI-native company behavior: humans and agents can both extend memory.
 
-### 18-21 April 2026: OperAI kit build-out
+### 18-21 April 2026: OperAI repo build-out
 
-OperAI moved through rapid kit versions:
+OperAI moved through rapid repo versions:
 
 - v2.1 brand bootstrap: one-command install, 25-question discovery, brain skeleton, systemd templates.
 - v2.2 CLI: integrations, tunnel, team join, status.
@@ -1011,7 +1011,7 @@ Now: Codex can read the brain, execute on the VPS, inspect source, write scripts
 
 6. **Action execution remains bounded.** Several systems can draft or queue actions, but final sends, payments, approvals, and irreversible state changes still require humans. This is correct for now, but should be explicit.
 
-7. **OperAI kit is not the same as the internal swarm.** The kit productized a large share of the architecture, but several internal advantages depend on brand-specific workflows, accumulated data, and custom integrations.
+7. **OperAI repo is not the same as the internal swarm.** The repo productized a large share of the architecture, but several internal advantages depend on brand-specific workflows, accumulated data, and custom integrations.
 
 8. **CS factory is ahead of other factories.** The factory pattern exists and CS reference shipped. Other domains remain planned or partially ported.
 
@@ -1089,8 +1089,8 @@ Now: Codex can read the brain, execute on the VPS, inspect source, write scripts
 - `knowledge/projects/operai/brand-bootstrap-v0.4.md`
 - `knowledge/projects/operai/brand-bootstrap-v0.5.md`
 - `knowledge/projects/operai/factory-runtime-v0.9.0.md`
-- `knowledge/projects/operai/kit-v3.0-beta-mvp.md`
-- `knowledge/projects/operai/kit-v3.0-stable.md`
+- `knowledge/projects/operai/repo-v3.0-beta-mvp.md`
+- `knowledge/projects/operai/repo-v3.0-stable.md`
 - `knowledge/projects/operai/playbook-v1.7-update.md`
 - `knowledge/projects/operai/audits/day1-crosscheck-2026-04-26.md`
 - `knowledge/projects/operai/audits/playbook-buyer-nontechnical-audit-2026-04-27.md`
@@ -1130,7 +1130,7 @@ Now: Codex can read the brain, execute on the VPS, inspect source, write scripts
 
 - `find brain -type f | wc -l`
 - `find brain -type f \( -name '*.md' -o -name '*.qmd' \) | wc -l`
-- `find brain/knowledge -mindepth 1 -maxdepth 1 -type d ...`
+- `find brain/knowledge -mindepth 1 -maxdepth 1 -type d...`
 - Regex parse of `services/brand-mcp/server.py` for `@mcp.tool()` registrations.
 - `skills_list` MCP call for tool-exposed skills.
 - `find brain -path '*/SKILL.md' | wc -l`
