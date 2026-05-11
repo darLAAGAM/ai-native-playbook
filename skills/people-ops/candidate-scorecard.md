@@ -13,7 +13,7 @@ Evaluate candidates consistently against role outcomes instead of vibes.
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for evaluate candidates consistently against role outcomes instead of vibes.
+Use when you need to evaluate candidates consistently against role outcomes instead of vibes.
 
 ## Inputs
 

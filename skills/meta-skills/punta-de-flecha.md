@@ -13,7 +13,7 @@ Use adversarial cross-review for expensive, irreversible, or high-uncertainty de
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for use adversarial cross-review for expensive, irreversible, or high-uncertainty decisions.
+Use when you need to use adversarial cross-review for expensive, irreversible, or high-uncertainty decisions.
 
 ## Inputs
 

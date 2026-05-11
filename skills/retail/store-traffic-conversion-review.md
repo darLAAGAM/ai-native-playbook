@@ -13,7 +13,7 @@ Diagnose whether retail performance is driven by footfall, conversion, basket si
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for diagnose whether retail performance is driven by footfall, conversion, basket size, staffing, or stock.
+Use when you need to diagnose whether retail performance is driven by footfall, conversion, basket size, staffing, or stock.
 
 ## Inputs
 

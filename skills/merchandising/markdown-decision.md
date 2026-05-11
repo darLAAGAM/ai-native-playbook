@@ -13,7 +13,7 @@ Decide when and how much to discount slow-moving inventory without damaging marg
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for decide when and how much to discount slow-moving inventory without damaging margin unnecessarily.
+Use when you need to decide when and how much to discount slow-moving inventory without damaging margin unnecessarily.
 
 ## Inputs
 

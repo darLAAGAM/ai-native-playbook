@@ -13,7 +13,7 @@ Draft a complete lifecycle or promotional email sequence with timing, subject li
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for draft a complete lifecycle or promotional email sequence with timing, subject lines, body copy, and CTAs.
+Use when you need to draft a complete lifecycle or promotional email sequence with timing, subject lines, body copy, and CTAs.
 
 ## Inputs
 

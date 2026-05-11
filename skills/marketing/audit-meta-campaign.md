@@ -13,7 +13,7 @@ Audit paid social campaigns for fatigue, overlap, tracking quality, and scaling 
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for audit paid social campaigns for fatigue, overlap, tracking quality, and scaling opportunities.
+Use when you need to audit paid social campaigns for fatigue, overlap, tracking quality, and scaling opportunities.
 
 ## Inputs
 

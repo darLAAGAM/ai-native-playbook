@@ -13,7 +13,7 @@ Identify products or categories that are overperforming, underperforming, or at 
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for identify products or categories that are overperforming, underperforming, or at risk of stockout/overstock.
+Use when you need to identify products or categories that are overperforming, underperforming, or at risk of stockout/overstock.
 
 ## Inputs
 

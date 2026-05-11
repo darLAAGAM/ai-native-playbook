@@ -13,7 +13,7 @@ Run a multi-perspective deliberation before important decisions.
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for run a multi-perspective deliberation before important decisions.
+Use when you need to run a multi-perspective deliberation before important decisions.
 
 ## Inputs
 

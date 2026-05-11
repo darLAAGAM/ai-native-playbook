@@ -13,7 +13,7 @@ Find missing or stale knowledge that is causing repeated agent failures or human
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for find missing or stale knowledge that is causing repeated agent failures or human interruptions.
+Use when you need to find missing or stale knowledge that is causing repeated agent failures or human interruptions.
 
 ## Inputs
 

@@ -13,7 +13,7 @@ Find unmatched bank transactions, duplicates, and suspicious entries before mont
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for find unmatched bank transactions, duplicates, and suspicious entries before month close.
+Use when you need to find unmatched bank transactions, duplicates, and suspicious entries before month close.
 
 ## Inputs
 

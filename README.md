@@ -29,7 +29,7 @@ It is **not** a product, not a SaaS, not a kit. It is the actual operational doc
 2. **If you want to read end-to-end** — `docs/index.md` is the table of contents.
 3. **If you want to ship something today** — browse `skills/` and copy the one that matches what you need to automate first.
 
-The companion site at **[useoperai.com](https://useoperai.com)** has the same content with a live dashboard showing the system running, the full playbook with formatting, and the production lessons.
+The companion site at **[usecompai.com](https://usecompai.com)** has the same content with a live dashboard showing the system running, the full playbook with formatting, and the production lessons.
 
 ---
 
@@ -41,7 +41,7 @@ The companion site at **[useoperai.com](https://useoperai.com)** has the same co
 
 ## Hands-on help
 
-The playbook is the answer for most people. If you want someone to wire this into your business directly — we work with up to three businesses at a time on hands-on implementations. Write to **hello@useoperai.com**.
+The playbook is the answer for most people. If you want someone to wire this into your business directly — we work with up to three businesses at a time on hands-on implementations. Write to **hello@usecompai.com**.
 
 ---
 

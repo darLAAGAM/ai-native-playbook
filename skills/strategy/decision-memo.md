@@ -13,7 +13,7 @@ Turn a messy business choice into a decision memo with options, tradeoffs, and n
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for turn a messy business choice into a decision memo with options, tradeoffs, and next action.
+Use when you need to turn a messy business choice into a decision memo with options, tradeoffs, and next action.
 
 ## Inputs
 

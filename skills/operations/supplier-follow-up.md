@@ -13,7 +13,7 @@ Draft precise supplier follow-ups that get dates, quantities, documents, and blo
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for draft precise supplier follow-ups that get dates, quantities, documents, and blockers resolved.
+Use when you need to draft precise supplier follow-ups that get dates, quantities, documents, and blockers resolved.
 
 ## Inputs
 

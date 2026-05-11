@@ -13,7 +13,7 @@ Capture durable learnings from completed work so future agents do not rediscover
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for capture durable learnings from completed work so future agents do not rediscover the same thing.
+Use when you need to capture durable learnings from completed work so future agents do not rediscover the same thing.
 
 ## Inputs
 

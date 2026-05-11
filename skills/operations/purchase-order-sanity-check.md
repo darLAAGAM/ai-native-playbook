@@ -13,7 +13,7 @@ Review purchase orders before commitment to catch quantity, timing, margin, and 
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for review purchase orders before commitment to catch quantity, timing, margin, and cash risks.
+Use when you need to review purchase orders before commitment to catch quantity, timing, margin, and cash risks.
 
 ## Inputs
 

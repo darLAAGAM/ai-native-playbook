@@ -13,7 +13,7 @@ Find recurring support issues and convert them into root-cause actions for opera
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for find recurring support issues and convert them into root-cause actions for operations, product, and marketing.
+Use when you need to find recurring support issues and convert them into root-cause actions for operations, product, and marketing.
 
 ## Inputs
 

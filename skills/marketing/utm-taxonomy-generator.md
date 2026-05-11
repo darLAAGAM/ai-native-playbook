@@ -13,7 +13,7 @@ Create consistent UTM parameters, event names, and campaign naming conventions a
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for create consistent UTM parameters, event names, and campaign naming conventions across channels.
+Use when you need to create consistent UTM parameters, event names, and campaign naming conventions across channels.
 
 ## Inputs
 

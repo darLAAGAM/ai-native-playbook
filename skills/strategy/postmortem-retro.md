@@ -13,7 +13,7 @@ Convert a failed launch, incident, or project into learnings and prevention acti
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for convert a failed launch, incident, or project into learnings and prevention actions.
+Use when you need to convert a failed launch, incident, or project into learnings and prevention actions.
 
 ## Inputs
 

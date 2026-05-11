@@ -13,7 +13,7 @@ Turn internal knowledge into a public or cross-company artifact without leaking 
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for turn internal knowledge into a public or cross-company artifact without leaking private context.
+Use when you need to turn internal knowledge into a public or cross-company artifact without leaking private context.
 
 ## Inputs
 

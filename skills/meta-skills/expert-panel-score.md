@@ -13,7 +13,7 @@ Score an artifact with multiple expert lenses and iterate until it passes the qu
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for score an artifact with multiple expert lenses and iterate until it passes the quality bar.
+Use when you need to score an artifact with multiple expert lenses and iterate until it passes the quality bar.
 
 ## Inputs
 

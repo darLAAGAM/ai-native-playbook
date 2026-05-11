@@ -13,7 +13,7 @@ Audit a site for crawlability, indexation, on-page quality, content depth, and a
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for audit a site for crawlability, indexation, on-page quality, content depth, and authority gaps.
+Use when you need to audit a site for crawlability, indexation, on-page quality, content depth, and authority gaps.
 
 ## Inputs
 

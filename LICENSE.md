@@ -27,4 +27,4 @@ This is operational knowledge from one company. It worked for us. Use your judgm
 
 ---
 
-For hands-on implementation help, write to hello@useoperai.com — we work with up to three businesses at a time.
+For hands-on implementation help, write to hello@usecompai.com — we work with up to three businesses at a time.

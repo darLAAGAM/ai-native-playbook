@@ -13,7 +13,7 @@ Recommend how to allocate or transfer stock across channels and locations based 
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for recommend how to allocate or transfer stock across channels and locations based on demand and cover.
+Use when you need to recommend how to allocate or transfer stock across channels and locations based on demand and cover.
 
 ## Inputs
 

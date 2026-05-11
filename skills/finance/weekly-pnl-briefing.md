@@ -13,7 +13,7 @@ Create an operator-grade weekly P&L readout that separates signal from noise.
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for create an operator-grade weekly P&L readout that separates signal from noise.
+Use when you need to create an operator-grade weekly P&L readout that separates signal from noise.
 
 ## Inputs
 

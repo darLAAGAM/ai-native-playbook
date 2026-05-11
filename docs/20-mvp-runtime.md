@@ -82,7 +82,7 @@ Plus: one new systemd unit (`operai-factory-runtime.service`), workflow hook sca
 A team forking the repo today can, same afternoon:
 
 ```bash
-curl useoperai.com/init | bash            # swarm up
+curl usecompai.com/init | bash            # swarm up
 operai-init llm configure                  # paste provider keys
 operai-init factory enable --domain cs     # 10 sub-agents deployed
 systemctl enable --now operai-factory-runtime   # daemon running

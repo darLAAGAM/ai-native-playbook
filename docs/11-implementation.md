@@ -72,7 +72,7 @@ Read the playbook  →  Fork the repo  →  Run one local workflow  →  Connect
 | **B. Fork** | Technical operators | Fork `https://github.com/darLAAGAM/ai-native-playbook` and inspect the artifacts before running anything | A private working copy you can adapt |
 | **C. Local pilot** | Teams with one painful workflow | Run one agent in shadow mode against copied/exported data | Draft outputs, no production risk |
 | **D. Production adaptation** | Teams ready to connect live systems | Add one API at a time, keep human approval gates, measure ROI weekly | A controlled deployment that compounds |
-| **E. Hands-on help** | Teams without spare technical capacity | Email `hello@useoperai.com` with your stack, channels, and first workflow | Scoped implementation support, not a product checkout |
+| **E. Hands-on help** | Teams without spare technical capacity | Email `hello@usecompai.com` with your stack, channels, and first workflow | Scoped implementation support, not a product checkout |
 
 ---
 
@@ -252,7 +252,7 @@ Start with read-only evaluation. Let optimization write only after a human appro
 
 ## Getting Help
 
-The default path is self-serve: read the playbook and fork the repo. If you want hands-on implementation help, email **hello@useoperai.com** with:
+The default path is self-serve: read the playbook and fork the repo. If you want hands-on implementation help, email **hello@usecompai.com** with:
 
 - Your vertical and revenue band
 - Your stack (commerce, helpdesk, inventory, finance, email, analytics)

@@ -13,7 +13,7 @@ Force agents to retrieve institutional context before answering company-specific
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for force agents to retrieve institutional context before answering company-specific questions.
+Use when you need to force agents to retrieve institutional context before answering company-specific questions.
 
 ## Inputs
 

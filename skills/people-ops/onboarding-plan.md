@@ -13,7 +13,7 @@ Create a practical 30/60/90-day onboarding plan for a new hire.
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for create a practical 30/60/90-day onboarding plan for a new hire.
+Use when you need to create a practical 30/60/90-day onboarding plan for a new hire.
 
 ## Inputs
 

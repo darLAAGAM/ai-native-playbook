@@ -13,7 +13,7 @@ Convert messy store incidents into structured records that operations can resolv
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for convert messy store incidents into structured records that operations can resolve and learn from.
+Use when you need to convert messy store incidents into structured records that operations can resolve and learn from.
 
 ## Inputs
 

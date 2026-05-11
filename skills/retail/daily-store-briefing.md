@@ -13,7 +13,7 @@ Prepare a concise store briefing for the manager before the trading day starts.
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for prepare a concise store briefing for the manager before the trading day starts.
+Use when you need to prepare a concise store briefing for the manager before the trading day starts.
 
 ## Inputs
 

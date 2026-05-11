@@ -6,7 +6,7 @@ I run a brand. 8-figure revenue. Seven-figure EBITDA. Growing 50% year over year
 
 I'm telling you this not to impress you, but to establish one thing: **everything in this playbook is extracted from a real, profitable, growing business.** Not a lab. Not a proof of concept. Not a McKinsey engagement.
 
-> The full origin story — how we went from one founder writing prompts to seven agents running the business — lives at [useoperai.com/story](https://useoperai.com/story.html). If you want the human side before the technical blueprint, start there.
+> The full origin story — how we went from one founder writing prompts to seven agents running the business — lives at [usecompai.com/story](https://usecompai.com/story.html). If you want the human side before the technical blueprint, start there.
 
 ---
 
@@ -100,7 +100,7 @@ What I am willing to share:
 - We have physical retail, DTC, and wholesale channels
 - I write code, and I think that's a superpower for a brand founder
 
-I didn't set out to sell a product. I set out to solve my own operational problems. The playbook is the byproduct: read it, fork the repo (https://github.com/darLAAGAM/ai-native-playbook), adapt it to your stack, and contact hello@useoperai.com only if you want hands-on help.
+I didn't set out to sell a product. I set out to solve my own operational problems. The playbook is the byproduct: read it, fork the repo (https://github.com/darLAAGAM/ai-native-playbook), adapt it to your stack, and contact hello@usecompai.com only if you want hands-on help.
 
 ---
 

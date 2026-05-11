@@ -13,7 +13,7 @@ Detect unusual spend patterns and convert them into approvals, cuts, or investig
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for detect unusual spend patterns and convert them into approvals, cuts, or investigation tasks.
+Use when you need to detect unusual spend patterns and convert them into approvals, cuts, or investigation tasks.
 
 ## Inputs
 

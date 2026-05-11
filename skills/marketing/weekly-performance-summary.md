@@ -13,7 +13,7 @@ Produce a plain-English weekly readout of what changed, why it matters, and what
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for produce a plain-English weekly readout of what changed, why it matters, and what to do next.
+Use when you need to produce a plain-English weekly readout of what changed, why it matters, and what to do next.
 
 ## Inputs
 

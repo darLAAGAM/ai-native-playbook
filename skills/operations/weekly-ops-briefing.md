@@ -13,7 +13,7 @@ Create a weekly operations brief that surfaces blockers before they hit customer
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for create a weekly operations brief that surfaces blockers before they hit customers or cash.
+Use when you need to create a weekly operations brief that surfaces blockers before they hit customers or cash.
 
 ## Inputs
 

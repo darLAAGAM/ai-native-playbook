@@ -13,7 +13,7 @@ Build a shift plan that matches expected demand while protecting payroll efficie
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for build a shift plan that matches expected demand while protecting payroll efficiency and service quality.
+Use when you need to build a shift plan that matches expected demand while protecting payroll efficiency and service quality.
 
 ## Inputs
 

@@ -13,7 +13,7 @@ Turn one strong piece of content into channel-native posts, email snippets, ad h
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for turn one strong piece of content into channel-native posts, email snippets, ad hooks, and short video scripts.
+Use when you need to turn one strong piece of content into channel-native posts, email snippets, ad hooks, and short video scripts.
 
 ## Inputs
 

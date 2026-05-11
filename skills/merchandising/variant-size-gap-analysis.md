@@ -13,7 +13,7 @@ Find broken assortments where demand exists but key variants/sizes are missing.
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for find broken assortments where demand exists but key variants/sizes are missing.
+Use when you need to find broken assortments where demand exists but key variants/sizes are missing.
 
 ## Inputs
 

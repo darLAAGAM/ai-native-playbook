@@ -13,7 +13,7 @@ Classify new support tickets by intent, urgency, revenue risk, and next action.
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for classify new support tickets by intent, urgency, revenue risk, and next action.
+Use when you need to classify new support tickets by intent, urgency, revenue risk, and next action.
 
 ## Inputs
 

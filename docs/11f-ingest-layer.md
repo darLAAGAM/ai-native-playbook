@@ -10,7 +10,7 @@ The short answer is the ingest layer, shipped in repo v2.4 as `operai-init inges
 
 ## The design was not free
 
-The first version (v0.3 planning) was simple: walk Gmail, Notion, Drive, Slack, Shopify — pipe everything through a classifier LLM — land the result in the brain. A senior GDPR counsel running an adversarial review [rejected](https://useoperai.com/playbook/) the design with 14 structural criticisms, starting with:
+The first version (v0.3 planning) was simple: walk Gmail, Notion, Drive, Slack, Shopify — pipe everything through a classifier LLM — land the result in the brain. A senior GDPR counsel running an adversarial review [rejected](https://usecompai.com/playbook/) the design with 14 structural criticisms, starting with:
 
 > **Hashing is not anonymization. You are storing PII in `raw/` and then sending PII to the LLM.** The pipeline is inverted.
 
@@ -96,7 +96,7 @@ Each of these requires at least one of the five Phase 2 prerequisites (§5) reso
 
 ## Setting it up on your brand
 
-After `curl useoperai.com/init | bash` and `operai-init connect shopify`:
+After `curl usecompai.com/init | bash` and `operai-init connect shopify`:
 
 ```bash
 # 1. Document why you're ingesting (legal basis + retention)
@@ -262,7 +262,7 @@ At a one-size-fits-all packaged SKU, the economics do not close. A brand that **
 operai-init ingest allow --source notion...
   → Error: source 'notion' is frozen in the public repo (v2.6+).
     See playbook Ch.13 Custom Engagement tier.
-    Contact: hello@useoperai.com
+    Contact: hello@usecompai.com
 ```
 
 **As a Custom Ingest Engagement (see Ch.13):**

@@ -13,7 +13,7 @@ Synthesize the week for an operator: what changed, what matters, and what needs 
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for synthesize the week for an operator: what changed, what matters, and what needs a decision.
+Use when you need to synthesize the week for an operator: what changed, what matters, and what needs a decision.
 
 ## Inputs
 

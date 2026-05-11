@@ -13,7 +13,7 @@ Create policy-compliant customer replies for refund, return, exchange, or store-
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for create policy-compliant customer replies for refund, return, exchange, or store-credit requests.
+Use when you need to create policy-compliant customer replies for refund, return, exchange, or store-credit requests.
 
 ## Inputs
 

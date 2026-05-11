@@ -184,7 +184,7 @@ Everything in this chapter is in the open-source repo. the founder's open-source
 - **Custom Ingest Engagement** (Ch.13 Path 3b, €5-15K): unstructured data ingestion (Gmail, Slack, Notion, Drive)
 - **Managed Operations** (Ch.13 Path 3a, €5-15K/mo): compAI runs + tunes the full swarm for the brand
 
-A buyer today goes from `curl useoperai.com/init` to autonomous helpdesk ticket processing in a single afternoon. That is the closest anyone has gotten to "a reference-deployment-in-a-box" without crossing into the custom engagement tiers.
+A buyer today goes from `curl usecompai.com/init` to autonomous helpdesk ticket processing in a single afternoon. That is the closest anyone has gotten to "a reference-deployment-in-a-box" without crossing into the custom engagement tiers.
 
 ---
 

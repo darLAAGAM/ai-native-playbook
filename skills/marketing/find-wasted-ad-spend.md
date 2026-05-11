@@ -13,7 +13,7 @@ Identify spend leaking into non-converting terms, placements, audiences, or crea
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for identify spend leaking into non-converting terms, placements, audiences, or creatives.
+Use when you need to identify spend leaking into non-converting terms, placements, audiences, or creatives.
 
 ## Inputs
 

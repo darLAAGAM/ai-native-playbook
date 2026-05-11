@@ -178,7 +178,7 @@ Each limitation is a known-scope carry-over, not a bug. If the founder wants any
 
 Runtime v2.9 now delivers a real, demonstrable system end-to-end. A founder buying the open-source repo can, in the same afternoon:
 
-1. `curl useoperai.com/init | bash` → swarm infrastructure
+1. `curl usecompai.com/init | bash` → swarm infrastructure
 2. `operai-init llm configure` → wire their providers
 3. `operai-init factory enable --domain cs` → deploy the factory templates
 4. `operai-init factory run-once --domain cs --input demo.json` → **see 10 sub-agents execute against their LLMs, produce a draft reply, emit a trace**

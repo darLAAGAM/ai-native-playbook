@@ -13,7 +13,7 @@ Keep daily memories useful by compressing noise and preserving decisions.
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for keep daily memories useful by compressing noise and preserving decisions.
+Use when you need to keep daily memories useful by compressing noise and preserving decisions.
 
 ## Inputs
 

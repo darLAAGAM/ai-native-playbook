@@ -8,7 +8,7 @@ A team forking compAI now has the same onboarding experience that the reference 
 
 Onboarding v3.1 closes the onboarding gap with three deliverables:
 
-1. **Onboarding pack** shipped in `repo/init/onboarding-pack/` and mirrored at `useoperai.com/onboarding/*`
+1. **Onboarding pack** shipped in `repo/init/onboarding-pack/` and mirrored at `usecompai.com/onboarding/*`
 2. **`operai-init setup-brand`** — interactive wizard that runs the founder-facing happy path
 3. **`operai-init team-onboard <name>`** — composite command that onboards one employee end-to-end
 
@@ -52,7 +52,7 @@ Neither the employee nor the brand's admin can remove them. They are the operati
 Before v3.1, the founder ran 12+ commands to go from install.sh to fully configured. v3.1 replaces that with one wizard:
 
 ```bash
-# After curl useoperai.com/init | bash
+# After curl usecompai.com/init | bash
 operai-init setup-brand
 ```
 
@@ -105,7 +105,7 @@ Welcome to Acme. To get you set up on our AI swarm (under 30 minutes):
 
 1. Run this in your terminal (Mac/Linux) or PowerShell (Windows):
 
-   curl -fsSL 'https://useoperai.com/team-join?brand=acme&mcp=mcp.acme.com' | bash
+   curl -fsSL 'https://usecompai.com/team-join?brand=acme&mcp=mcp.acme.com' | bash
 
 2. When it asks for your API key, paste (separately/securely):
 
@@ -113,11 +113,11 @@ Welcome to Acme. To get you set up on our AI swarm (under 30 minutes):
 
 3. After Claude Desktop reconnects, paste the custom instruction from:
 
-   https://useoperai.com/onboarding/custom-instruction
+   https://usecompai.com/onboarding/custom-instruction
 
 4. Your full onboarding checklist + 30-60-90 plan:
 
-   https://useoperai.com/onboarding/checklist
+   https://usecompai.com/onboarding/checklist
 
 Step 6 of the checklist is the most important — takes 15 min and makes every
 future Claude chat personalized to you.
@@ -135,7 +135,7 @@ The employee runs the curl, pastes the key, opens Claude Desktop, applies the cu
 | Paste API key | Script prompts for `lgm_xxx`, puts it as env var referenced by `Authorization:Bearer` header |
 | Connect to `mcp.<brand>.com/sse` | Script uses the brand's `mcp.<brand>.com/sse` — per-brand MCP |
 | Get 44 MCP tools | Get 11 brand-scoped MCP tools (brain, memory, me, status, integrations passthroughs) |
-| Custom instruction (brain-query-first, etc.) | `useoperai.com/onboarding/custom-instruction` served with same 4 rules |
+| Custom instruction (brain-query-first, etc.) | `usecompai.com/onboarding/custom-instruction` served with same 4 rules |
 | me.md interview via skill | `me-md-interview` skill shipped in pack + invokable via Claude Desktop |
 | Notion onboarding doc | `notion-templates/01-onboarding-checklist.md` — Day 1 / Week 1 / 30-60-90 |
 | L0-L3 + M/T/frontline frameworks | Ch.14 + `operai-init assess` command |
@@ -150,7 +150,7 @@ The only thing the reference deployment has that the repo doesn't automatically 
 When compAI improves the onboarding assets, brands pull updates without redeploying the full repo:
 
 ```bash
-operai-init onboarding-pack update     # downloads latest from useoperai.com
+operai-init onboarding-pack update     # downloads latest from usecompai.com
 operai-init onboarding-pack install    # re-interpolates for your brand
 ```
 

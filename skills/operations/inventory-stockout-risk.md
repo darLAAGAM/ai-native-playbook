@@ -13,7 +13,7 @@ Predict near-term stockouts and prioritize replenishment or allocation actions.
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for predict near-term stockouts and prioritize replenishment or allocation actions.
+Use when you need to predict near-term stockouts and prioritize replenishment or allocation actions.
 
 ## Inputs
 

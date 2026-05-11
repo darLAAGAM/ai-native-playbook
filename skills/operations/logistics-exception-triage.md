@@ -13,7 +13,7 @@ Classify logistics exceptions and route them to the right resolution path.
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for classify logistics exceptions and route them to the right resolution path.
+Use when you need to classify logistics exceptions and route them to the right resolution path.
 
 ## Inputs
 

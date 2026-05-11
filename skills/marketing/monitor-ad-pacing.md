@@ -13,7 +13,7 @@ Project month-end spend and recommend daily budget changes before over/underspen
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for project month-end spend and recommend daily budget changes before over/underspend becomes expensive.
+Use when you need to project month-end spend and recommend daily budget changes before over/underspend becomes expensive.
 
 ## Inputs
 

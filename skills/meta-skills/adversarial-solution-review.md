@@ -13,7 +13,7 @@ Generate options, attack them, repair them, and consolidate a stronger recommend
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for generate options, attack them, repair them, and consolidate a stronger recommendation.
+Use when you need to generate options, attack them, repair them, and consolidate a stronger recommendation.
 
 ## Inputs
 

@@ -13,7 +13,7 @@ Extract decisions, action items, owners, deadlines, and open questions from mess
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for extract decisions, action items, owners, deadlines, and open questions from messy meeting notes.
+Use when you need to extract decisions, action items, owners, deadlines, and open questions from messy meeting notes.
 
 ## Inputs
 

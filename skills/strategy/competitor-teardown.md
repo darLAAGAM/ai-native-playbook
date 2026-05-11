@@ -13,7 +13,7 @@ Analyze a competitor’s positioning, offer, pricing, funnel, and likely strateg
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for analyze a competitor’s positioning, offer, pricing, funnel, and likely strategic intent.
+Use when you need to analyze a competitor’s positioning, offer, pricing, funnel, and likely strategic intent.
 
 ## Inputs
 

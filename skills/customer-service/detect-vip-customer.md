@@ -13,7 +13,7 @@ Identify customers who deserve priority handling because of lifetime value, infl
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for identify customers who deserve priority handling because of lifetime value, influence, complaint risk, or active revenue impact.
+Use when you need to identify customers who deserve priority handling because of lifetime value, influence, complaint risk, or active revenue impact.
 
 ## Inputs
 

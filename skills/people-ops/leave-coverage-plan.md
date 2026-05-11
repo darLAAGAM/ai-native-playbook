@@ -13,7 +13,7 @@ Plan coverage for vacations, parental leave, sick leave, or temporary absence.
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for plan coverage for vacations, parental leave, sick leave, or temporary absence.
+Use when you need to plan coverage for vacations, parental leave, sick leave, or temporary absence.
 
 ## Inputs
 

@@ -12,7 +12,7 @@ The right mental model is not “analytics BI.” It is closer to an aircraft st
 
 ## The tour
 
-The public live view at `useoperai.com/live` should be read as a map of the operating layer, not as a claim that every metric is fully autonomous.
+The public live view at `usecompai.com/live` should be read as a map of the operating layer, not as a claim that every metric is fully autonomous.
 
 ```text
 LIVE DASHBOARD

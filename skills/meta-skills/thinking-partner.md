@@ -13,7 +13,7 @@ Explore an ambiguous problem through questions before jumping to solutions.
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for explore an ambiguous problem through questions before jumping to solutions.
+Use when you need to explore an ambiguous problem through questions before jumping to solutions.
 
 ## Inputs
 

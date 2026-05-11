@@ -13,7 +13,7 @@ Optimize content so AI search systems can parse, cite, and summarize the busines
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for optimize content so AI search systems can parse, cite, and summarize the business accurately.
+Use when you need to optimize content so AI search systems can parse, cite, and summarize the business accurately.
 
 ## Inputs
 

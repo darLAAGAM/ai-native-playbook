@@ -13,7 +13,7 @@ Estimate how many months the business can operate under base, downside, and aggr
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for estimate how many months the business can operate under base, downside, and aggressive scenarios.
+Use when you need to estimate how many months the business can operate under base, downside, and aggressive scenarios.
 
 ## Inputs
 

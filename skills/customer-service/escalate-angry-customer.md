@@ -13,7 +13,7 @@ Turn an emotionally charged complaint into a clear escalation brief and calm cus
 
 ## Use When
 
-Use this skill when an operator needs a repeatable procedure for turn an emotionally charged complaint into a clear escalation brief and calm customer response.
+Use when you need to turn an emotionally charged complaint into a clear escalation brief and calm customer response.
 
 ## Inputs
 
