@@ -1,10 +1,17 @@
+---
+prompt: invoice-extract
+domain: finance
+---
+
 # Invoice Extract Prompt
 
-Extract structured invoice fields from the text below.
+```text
+Extract structured invoice fields from the text below. Return JSON only.
 
-Return JSON only:
+Text:
+{{invoice_text}}
 
-```json
+Schema:
 {
   "document_type": "invoice | credit_note | receipt | statement | quote | unknown",
   "supplier_name": "",
@@ -21,12 +28,10 @@ Return JSON only:
   "confidence": "high | medium | low",
   "anomalies": []
 }
-```
 
 Rules:
-
 - Do not infer missing amounts.
-- If totals conflict, set confidence low and list anomaly.
 - Preserve original currency.
-- Mark scanned/garbled text as low confidence.
-
+- Mark scanned or garbled text as low confidence.
+- List conflicting totals as anomalies.
+```

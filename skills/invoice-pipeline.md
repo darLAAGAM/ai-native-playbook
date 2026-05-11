@@ -1,30 +1,54 @@
-# Skill: Invoice Pipeline
+---
+skill: invoice-pipeline
+domain: finance
+complexity: medium
+prerequisites: email or file inbox, document extraction, storage folder, review sheet
+---
 
-## Trigger
+# Invoice Intake Pipeline
 
-Run when finance/admin inboxes contain supplier invoice emails or when backfilling invoice history.
+## Purpose
+
+Extract, classify, store, and review supplier invoices without posting or paying automatically.
+
+## Use When
+
+Run when finance or admin inboxes contain supplier invoice emails, uploaded PDFs, receipts, credit notes, or when backfilling invoice history.
 
 ## Inputs
 
-- Inbox or label
+- Inbox, label, folder, or upload source
 - Date range
-- Drive destination folder
-- Review sheet
+- Destination folder for original evidence
+- Review sheet or accounting queue
+- Accounting categories and tax rules
 
 ## Procedure
 
-1. Find emails with PDF attachments.
-2. Extract PDF text.
-3. Classify document type: invoice, credit note, receipt, statement, quote, unknown.
-4. Extract supplier, tax ID, invoice number, invoice date, due date, currency, base, tax, total.
-5. Store original PDF in Drive with predictable filename.
-6. Append review row with confidence, Drive link, and source email.
-7. Escalate scanned PDFs, low confidence, duplicates, and multi-currency anomalies.
+1. Find emails or files with PDF/image attachments that look like invoices, credit notes, receipts, statements, or quotes.
+2. Extract document text with OCR when needed.
+3. Classify document type: invoice, credit note, receipt, statement, quote, or unknown.
+4. Extract supplier, tax ID, document number, document date, due date, currency, tax base, tax amount, total amount, and payment terms.
+5. Detect duplicates by supplier, document number, amount, and date.
+6. Store the original document with a predictable filename and source link.
+7. Append a review row with extracted fields, confidence, anomalies, and source evidence.
+8. Escalate scanned/garbled PDFs, low confidence, duplicates, tax mismatches, missing supplier IDs, and multi-currency anomalies.
+
+## Output
+
+- Structured invoice fields
+- Original evidence link
+- Confidence level
+- Anomaly list
+- Review status
 
 ## Guardrails
 
 - Do not auto-pay.
 - Do not post to accounting without human approval.
-- Store original evidence.
-- Keep confidence and source link on every row.
+- Store original evidence and source link on every row.
+- Mark estimates and low-confidence OCR explicitly.
 
+## How to adapt
+
+Map extracted fields to your accounting software, local tax/VAT rules, approval thresholds, and supplier naming conventions.
