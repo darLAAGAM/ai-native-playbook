@@ -1,0 +1,29 @@
+pattern_id: customer-service-tracking
+title: Tracking Questions Need Parallel Order and Logistics Lookup
+domain: customer_service
+summary: Resolve most tracking questions by checking ecommerce order status and carrier/3PL tracking together.
+trigger: Customer asks where an order is after fulfillment.
+context: Applies to physical-products businesses with ecommerce order IDs and logistics tracking.
+mechanism:
+  - step: Fetch ecommerce order status.
+  - step: Fetch logistics tracking status.
+  - step: Draft reply only when systems agree.
+data_required:
+  - source: ecommerce
+    field: order_status
+  - source: logistics
+    field: tracking_status
+rule: Auto-draft when both systems agree and tracking URL exists; escalate mismatches or stalled parcels.
+confidence: high
+evidence: Repeated WISMO workflows across consumer SME operations.
+limitations:
+  - Does not apply to custom, pre-order, wholesale, or untracked shipments.
+anonymization:
+  removed:
+    - brand_names
+    - employee_names
+    - customer_data
+    - absolute_financials
+    - location_identifiers
+reuse_notes: Adapt tone and escalation thresholds to your carrier reliability and customer policy.
+

@@ -1,0 +1,30 @@
+pattern_id: finance-invoice-intake
+title: Invoice Intake Should Create Review Work, Not Payments
+domain: finance
+summary: Extract invoice fields from inbox PDFs, file originals, and append review rows before accounting import.
+trigger: Supplier invoices arrive by email attachment.
+context: Works for SMEs with finance/admin inboxes, Drive or equivalent storage, and spreadsheet review.
+mechanism:
+  - step: Detect PDF attachments.
+  - step: Extract supplier, tax ID, invoice number, dates, currency, totals.
+  - step: Store original PDF in a predictable folder.
+  - step: Append a row with confidence and source link.
+data_required:
+  - source: email
+    field: attachment
+  - source: pdf_text
+    field: invoice_fields
+rule: Never auto-pay from extracted data; route low-confidence or scanned documents to review.
+confidence: medium
+evidence: Backfill workflows expose duplicate invoices and exception classes quickly.
+limitations:
+  - OCR-heavy PDFs and complex tables need manual review.
+anonymization:
+  removed:
+    - brand_names
+    - employee_names
+    - customer_data
+    - absolute_financials
+    - location_identifiers
+reuse_notes: Start with one inbox and one sheet before connecting accounting writes.
+

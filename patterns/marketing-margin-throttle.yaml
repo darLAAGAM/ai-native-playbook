@@ -1,0 +1,31 @@
+pattern_id: marketing-margin-throttle
+title: Paid Spend Needs Dynamic Break-Even, Not Fixed ROAS
+domain: marketing
+summary: Compare blended and marginal MER against a daily break-even threshold based on current margin structure.
+trigger: Paid-media budget is being scaled, held, or cut.
+context: Applies when ecommerce revenue, paid spend, COGS, returns, logistics, and fees can be estimated daily.
+mechanism:
+  - step: Calculate dynamic break-even MER.
+  - step: Compare blended MER and marginal MER.
+  - step: Label green, yellow, red, or black.
+data_required:
+  - source: ecommerce
+    field: net_revenue
+  - source: ads
+    field: paid_spend
+  - source: finance
+    field: margin_inputs
+rule: Do not scale when marginal MER is below break-even or input data is black-state.
+confidence: medium
+evidence: Adversarial review corrected static-threshold errors and separated blended from marginal efficiency.
+limitations:
+  - Noisy during promotions, stockouts, PR spikes, and attribution lag.
+anonymization:
+  removed:
+    - brand_names
+    - employee_names
+    - customer_data
+    - absolute_financials
+    - location_identifiers
+reuse_notes: Run read-only for 30 days before recommending budget changes.
+

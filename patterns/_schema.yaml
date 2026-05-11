@@ -1,0 +1,25 @@
+pattern_id: string
+title: string
+domain: customer_service | finance | marketing | operations | merchandising | retail | people | platform | governance
+summary: string
+trigger: string
+context: string
+mechanism:
+  - step: string
+data_required:
+  - source: string
+    field: string
+rule: string
+confidence: low | medium | high
+evidence: string
+limitations:
+  - string
+anonymization:
+  removed:
+    - brand_names
+    - employee_names
+    - customer_data
+    - absolute_financials
+    - location_identifiers
+reuse_notes: string
+
