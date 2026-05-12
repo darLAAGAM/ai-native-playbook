@@ -1,10 +1,10 @@
 # AI-Native Playbook
 
-> **Build your own AI brain. The same one we run an 8-figure consumer brand on.**
+> **Open-source AI operating system used by a real 8-figure company growing +100%.**
 >
 > Every chapter. Every skill. Every prompt. Every template. Open.
 
-This is the open playbook for taking a consumer SME (beauty, food, home, wellness, pet, outdoor, fashion, retail) from "we use ChatGPT sometimes" to operating on an AI substrate that compounds.
+This is the playbook for taking a consumer SME (beauty, food, home, wellness, pet, outdoor, fashion, retail) from "we use ChatGPT sometimes" to operating on an AI substrate that compounds — the same system behind an 8-figure company growing +100% YoY.
 
 It is **not** a product, not a SaaS, not a kit. It is the actual operational documentation extracted from a year of running a real business this way.
 
