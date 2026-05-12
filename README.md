@@ -23,6 +23,20 @@ It is **not** a product, not a SaaS, not a kit. It is the actual operational doc
 
 ---
 
+## The three executors
+
+The brain is the substrate. Three things execute on top of it:
+
+- **Tools** read and write data via MCP. The brain knows what is happening now.
+- **Agents** handle recurring decisions 24/7. Triage, close, reconcile, report.
+- **Employees** ask their LLM. The LLM reads the brain, executes, writes back.
+
+No employee picks cells in spreadsheets. The LLM is the execution layer of the company.
+
+Every interaction adds to the brain. Month six is qualitatively different from month one.
+
+---
+
 ## Where to start
 
 1. **If you're new** — read `docs/00-the-brain.md`. 10 minutes. Tells you what this is and why it exists.
