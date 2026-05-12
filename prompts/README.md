@@ -1,6 +1,6 @@
 # Prompts Library
 
-25 copy-paste-ready prompts across 10 domains. These prompts support the skills library and can be used directly in Claude, Codex, ChatGPT, or any internal agent system.
+38 copy-paste-ready prompts across 13 domains. These prompts support the skills library and can be used directly in Claude, Codex, ChatGPT, or any internal agent system.
 
 License: free to use, attribution requested.
 
@@ -17,10 +17,25 @@ License: free to use, attribution requested.
 
 - [anonymization-prompt](brain-ops/anonymization-prompt.md) - Anonymize Internal Document Prompt
 
+### CRO (2 prompts)
+
+- [form-cro-prompt](cro/form-cro-prompt.md) - Form CRO Prompt
+- [signup-flow-cro-prompt](cro/signup-flow-cro-prompt.md) - Signup Flow CRO Prompt
+
 ### Customer Service (2 prompts)
 
 - [refund-response-prompt](customer-service/refund-response-prompt.md) - Refund Response Prompt
 - [ticket-triage-prompt](customer-service/ticket-triage-prompt.md) - Customer Support Ticket Triage Prompt
+
+### Data Analysis (2 prompts)
+
+- [analytics-tracking-plan-prompt](data-analysis/analytics-tracking-plan-prompt.md) - Analytics Tracking Plan Prompt
+- [experiment-results-readout-prompt](data-analysis/experiment-results-readout-prompt.md) - Experiment Results Readout Prompt
+
+### Ecommerce (2 prompts)
+
+- [pricing-strategy-prompt](ecommerce/pricing-strategy-prompt.md) - Pricing Strategy Prompt
+- [referral-program-prompt](ecommerce/referral-program-prompt.md) - Referral Program Prompt
 
 ### Finance (3 prompts)
 
@@ -28,11 +43,17 @@ License: free to use, attribution requested.
 - [invoice-extract](invoice-extract.md) - Invoice Extract Prompt
 - [weekly-pnl-prompt](finance/weekly-pnl-prompt.md) - Weekly P&L Briefing Prompt
 
-### Marketing (6 prompts)
+### Marketing (12 prompts)
 
+- [ad-copy-variants-prompt](marketing/ad-copy-variants-prompt.md) - Ad Copy Variants Prompt
+- [budget-scenario-prompt](marketing/budget-scenario-prompt.md) - Budget Scenario Prompt
+- [campaign-ab-test-plan-prompt](marketing/campaign-ab-test-plan-prompt.md) - Campaign A/B Test Plan Prompt
+- [competitor-creative-analysis-prompt](marketing/competitor-creative-analysis-prompt.md) - Competitor Creative Analysis Prompt
 - [email-sequence-prompt](marketing/email-sequence-prompt.md) - Email Sequence Prompt
 - [geo-optimization-prompt](marketing/geo-optimization-prompt.md) - GEO AI Search Optimization Prompt
+- [landing-page-message-match-prompt](marketing/landing-page-message-match-prompt.md) - Landing Page Message Match Prompt
 - [meta-ads-audit-prompt](marketing/meta-ads-audit-prompt.md) - Meta Ads Audit Prompt
+- [roas-forecast-prompt](marketing/roas-forecast-prompt.md) - ROAS Forecast Prompt
 - [seo-audit-prompt](marketing/seo-audit-prompt.md) - SEO Audit Prompt
 - [utm-taxonomy-prompt](marketing/utm-taxonomy-prompt.md) - UTM Taxonomy Prompt
 - [wasted-spend-prompt](marketing/wasted-spend-prompt.md) - Wasted Ad Spend Prompt
@@ -62,10 +83,11 @@ License: free to use, attribution requested.
 - [daily-store-briefing-prompt](retail/daily-store-briefing-prompt.md) - Daily Store Briefing Prompt
 - [traffic-conversion-prompt](retail/traffic-conversion-prompt.md) - Retail Traffic Conversion Prompt
 
-### Strategy (3 prompts)
+### Strategy (4 prompts)
 
 - [council-query](council-query.md) - Council Query Prompt
 - [decision-memo-prompt](strategy/decision-memo-prompt.md) - Decision Memo Prompt
+- [launch-plan-prompt](strategy/launch-plan-prompt.md) - Launch Plan Prompt
 - [weekly-founder-briefing-prompt](strategy/weekly-founder-briefing-prompt.md) - Weekly Founder Briefing Prompt
 
 ## Prompt Hygiene
