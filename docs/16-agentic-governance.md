@@ -2,7 +2,7 @@
 
 ## Why this layer exists
 
-Chapter 15 establishes that compAI implements McKinsey's five pillars of the agentic organization. Pillar 3 — Governance — is the pillar McKinsey flags as the **rate-limiting factor**:
+Chapter 15 establishes that Compai implements McKinsey's five pillars of the agentic organization. Pillar 3 — Governance — is the pillar McKinsey flags as the **rate-limiting factor**:
 
 > *"The scale of agentic adoption will be capped by how much oversight capacity humans can provide — making governance itself a potential bottleneck to productivity."*
 
@@ -12,7 +12,7 @@ McKinsey names the pattern explicitly:
 
 > *"Critic agents will challenge outputs, guardrail agents will enforce policy, and compliance agents will monitor regulation."* — McKinsey, Sep 2025
 
-compAI repo v2.5 ships exactly these three.
+Compai repo v2.5 ships exactly these three.
 
 ## The three meta-agents
 
@@ -139,7 +139,7 @@ Honest scoping:
 3. **Compliance agent relies on a curated source list.** Brands outside EU/ES get a reduced source list; we ship EU-focused defaults and document how to extend.
 4. **No real-time dashboarding.** Logs are queryable via CLI; a web UI for founder review comes in v0.6.
 
-## What this gives the brand that deploys compAI
+## What this gives the brand that deploys Compai
 
 - **One command installs three meta-agents.** No custom LLM pipeline, no vendor integrations.
 - **Governance scales with agent count**, not linearly with founder attention.

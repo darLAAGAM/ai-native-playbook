@@ -41,7 +41,7 @@ The companion site at **[usecompai.com](https://usecompai.com)** has the same co
 
 ## Hands-on help
 
-The playbook is the answer for most people. If you want someone to wire this into your business directly — we work with up to three businesses at a time on hands-on implementations. Write to **hello@usecompai.com**.
+The playbook is the answer for most people. If you want someone to wire this into your business directly — we work with up to three businesses at a time on hands-on implementations. Write to **diego@laagam.com**.
 
 ---
 

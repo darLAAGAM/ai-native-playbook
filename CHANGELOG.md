@@ -31,7 +31,7 @@ License reminder: **Free to use, attribution requested.**
 
 ## 2026-05-11 · Open Source pivot
 
-- **Repositioned from product-first to open-source educational portfolio.** The kit-and-pricing framing came out. The playbook framing went in. Public CTAs now point to GitHub and to a discreet `hello@usecompai.com` contact for hands-on implementation work.
+- **Repositioned from product-first to open-source educational portfolio.** The kit-and-pricing framing came out. The playbook framing went in. Public CTAs now point to GitHub and to a discreet `diego@laagam.com` contact for hands-on implementation work.
 - Site shows new sections: "What's in the repo" and "Open Source · Take it. Fork it. Build your own."
 - 14 chapters refactored to remove product/SaaS voice and to generalize fashion-specific examples for cross-vertical consumer SMEs.
 - 11 technical chapters flagged as Appendix.
@@ -52,7 +52,7 @@ License reminder: **Free to use, attribution requested.**
 ## 2026-04-27 · Build-in-public pivot
 
 - Hero rewritten to build-in-public voice. Stats grid simplified from technical jargon (MCP tools, brain docs, skills) to operator metrics (62h/week saved, 6+ months in production).
-- Email convention: `hello@usecompai.com` everywhere.
+- Email convention: `diego@laagam.com` everywhere.
 - Footer: "Built inside a profitable brand growing 50%+ annually" — anonymized credibility.
 
 ## 2026-04-26 · Profitability Engine v3 production-validated

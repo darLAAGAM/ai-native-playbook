@@ -4,11 +4,11 @@
 
 ## Why this chapter exists
 
-compAI promised, in Chapter 15 (Pillar 5 — Dynamic Sourcing), that the swarm would **never lock a brand to a single LLM vendor**. repo v2.8 ships the surface that makes that promise real: a unified LLM client that speaks to five providers today and is designed to add more without changing a single line of agent code.
+Compai promised, in Chapter 15 (Pillar 5 — Dynamic Sourcing), that the swarm would **never lock a brand to a single LLM vendor**. repo v2.8 ships the surface that makes that promise real: a unified LLM client that speaks to five providers today and is designed to add more without changing a single line of agent code.
 
 This matters for three reasons:
 
-1. **Your LLM bill is yours.** compAI never touches your API keys. Each brand configures its own Anthropic / OpenAI / Gemini / Qwen / MiniMax account. The VPS stores those keys at mode 600. We sell software; you pay for inference.
+1. **Your LLM bill is yours.** Compai never touches your API keys. Each brand configures its own Anthropic / OpenAI / Gemini / Qwen / MiniMax account. The VPS stores those keys at mode 600. We sell software; you pay for inference.
 2. **Vendor outage ≠ swarm outage.** Fallback chains let the runtime route around a 429 / 5xx automatically. If Anthropic goes down, the CS factory keeps answering tickets on OpenAI. This is the operational translation of McKinsey's "dynamic sourcing."
 3. **Cost optimization at the sub-agent level.** Not every LLM call needs Claude Opus. Your triage sub-agent can run on GPT-4o-mini at $0.15/M tokens. Your drafter can run on Sonnet-4.5 for brand-voice quality. Your language-detect can run on Gemini 2.5 Flash's free tier. The savings compound.
 

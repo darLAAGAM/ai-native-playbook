@@ -395,7 +395,7 @@ McKinsey's September 2025 agentic-organization paper identifies **three emerging
 - Scripted workflows for their role (pre-built prompts the agent understands)
 - Clear escalation rules: when to bring the agent in, when to bypass, when to flag the M-shaped supervisor
 
-## Matching Profiles to compAI's Seven Agents
+## Matching Profiles to Compai's Seven Agents
 
 Each of the 7 domain agents has a natural pairing with T-shaped specialists:
 

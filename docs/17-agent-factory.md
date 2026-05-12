@@ -8,7 +8,7 @@ McKinsey's September 2025 framework (mapped in Ch.15) makes one quantitative cla
 
 > *"A human team of two to five people can already supervise an agent factory of 50 to 100 specialized agents running an end-to-end process."*
 
-In repo v2.5 and earlier, compAI shipped **7 monolithic domain agents**: one CS agent, one Finance agent, one Ops agent, etc. That architecture works for a 8-figure brand — the reference deployment ran 12+ months this way. But it leaves unexploited the ratio McKinsey identifies as the agentic organization's defining advantage: **1 human to 10-20 specialized agents per domain**.
+In repo v2.5 and earlier, Compai shipped **7 monolithic domain agents**: one CS agent, one Finance agent, one Ops agent, etc. That architecture works for a 8-figure brand — the reference deployment ran 12+ months this way. But it leaves unexploited the ratio McKinsey identifies as the agentic organization's defining advantage: **1 human to 10-20 specialized agents per domain**.
 
 repo v2.6 refactors each domain agent into a **factory** of 5-12 specialized sub-agents. This chapter documents the pattern, the contract model, and the reference implementation (CS agent factory, 10 sub-agents) that ships in v2.6.
 

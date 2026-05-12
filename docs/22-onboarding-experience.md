@@ -4,7 +4,7 @@
 
 ## What this chapter ships
 
-A team forking compAI now has the same onboarding experience that the reference deployment's employees live today: Claude Desktop connected, me.md created, custom instruction applied, Notion checklist in hand — in under 30 minutes per person.
+A team forking Compai now has the same onboarding experience that the reference deployment's employees live today: Claude Desktop connected, me.md created, custom instruction applied, Notion checklist in hand — in under 30 minutes per person.
 
 Onboarding v3.1 closes the onboarding gap with three deliverables:
 
@@ -147,7 +147,7 @@ The only thing the reference deployment has that the repo doesn't automatically 
 
 ## Pack updates
 
-When compAI improves the onboarding assets, brands pull updates without redeploying the full repo:
+When Compai improves the onboarding assets, brands pull updates without redeploying the full repo:
 
 ```bash
 operai-init onboarding-pack update     # downloads latest from usecompai.com
@@ -169,12 +169,12 @@ The brand's MCP server's `skill_read("me-md-interview")` returns the SKILL.md co
 
 Everything in Onboarding v3.1 is in the open-source repo. No separate onboarding SKU. The pack + the wrappers ship with every deployment.
 
-The logic: the hardest part of AI adoption is not the technology, it's the habits. The onboarding pack is the lever that moves the habits. Keeping it in the base repo maximizes adoption across every brand using compAI, which in turn maximizes the Pattern Library's cross-company learning (which IS a moat).
+The logic: the hardest part of AI adoption is not the technology, it's the habits. The onboarding pack is the lever that moves the habits. Keeping it in the base repo maximizes adoption across every brand using Compai, which in turn maximizes the Pattern Library's cross-company learning (which IS a moat).
 
 ## Scope explicitly NOT in v3.1
 
 1. **No training content beyond Notion templates.** If a brand wants custom video training, that's a Custom Engagement (Ch.13).
-2. **No automatic me.md interview trigger.** The employee has to type the command. Making Claude Desktop auto-open a session with that command is a Claude Desktop feature request, not an compAI one.
+2. **No automatic me.md interview trigger.** The employee has to type the command. Making Claude Desktop auto-open a session with that command is a Claude Desktop feature request, not an Compai one.
 3. **No integrated onboarding tracker.** The brand uses their own HRIS or Notion for tracking. `operai-init assess --team` shows profile distribution but not onboarding completion state.
 4. **No certification / testing.** Philosophy: adoption is measured by real use (`/learn` count, brain writes, workflow improvements) not by test scores.
 

@@ -184,7 +184,7 @@ A brand that wants v3.4 functionality today buys Managed Operations (Ch.13 Path 
 
 ## Commercial framing
 
-Runtime v3.0-beta remains in the open-source repo. The hooks architecture makes "brand-specific customization" explicit and scoped: **free if the brand does it in-house** (Python programming skill required), or **€5-15K one-time engagement** if they want compAI to build their integrations (Ch.13 Custom Engagement).
+Runtime v3.0-beta remains in the open-source repo. The hooks architecture makes "brand-specific customization" explicit and scoped: **free if the brand does it in-house** (Python programming skill required), or **€5-15K one-time engagement** if they want Compai to build their integrations (Ch.13 Custom Engagement).
 
 The honest positioning:
 
