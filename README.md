@@ -14,12 +14,30 @@ It is **not** a product, not a SaaS, not a kit. It is the actual operational doc
 
 | Folder | What's in it |
 |---|---|
-| `docs/` | The playbook. 30+ essay-style chapters. Brain primitive, agents, capabilities, lessons. |
+| `docs/` | The playbook. 30+ essay-style chapters. Brain primitive, agents, capabilities, Brain v2, lessons. |
 | `skills/` | Executable procedures any AI client can run. *Close the books. Triage a refund. Reconcile bank.* One markdown file per skill. |
+| `skills/brain-v2/` | 6 skills for the operational memory layer (capture, tasks, outputs, health, gaps, world model). |
 | `prompts/` | Curated prompts behind the agents. Customer service, finance, marketing, retail, merchandising, people ops, strategy. Copy-paste-ready. |
 | `templates/` | Brain folder template. SOUL.md template. factory.yml. Custom-instruction template. Drop-in starting points. |
+| `templates/brain-v2/` | Filesystem layout, master prompt template, setup scripts (Mac+Windows), onboarding checklist, L0-L3 framework, privacy hard-stops. |
 | `integrations/` | How to wire your stack (Shopify, Klaviyo, Notion, helpdesk, accounting, GA4) into the brain via MCP. |
 | `patterns/` | Anonymized operational patterns. YAML schema for the pattern library. |
+
+---
+
+## What's new — Brain v2
+
+The brain isn't a snapshot. It's a system that learns. Last week we upgraded ours from a knowledge base to an operational memory — bidirectional, self-refreshing, with privacy hard-stops.
+
+- **Bidirectional** — agents and employees write back what they learn. Notion AI reads; this writes.
+- **Captures where work happens** — 4 pipelines for Slack, Google Meet, Gmail, Drive. 228 meeting docs auto-captured. 1,019 signals promoted.
+- **Setup 1-click** — every employee connects in 2 minutes. One shell command, one master prompt, one shared memory.
+- **Master Prompt** — every AI in the company (Claude Desktop + agents + new hires) shares one canonical prompt. Versioned. Propagated.
+- **Tasks, outputs, world model** — raw → signal → task → output → decision. Health checks tell you what's broken before you notice.
+
+The 6 new chapters covering this are at [`docs/10l-` through `docs/10q-`](docs/). The new skills are in [`skills/brain-v2/`](skills/brain-v2/). The setup templates are in [`templates/brain-v2/`](templates/brain-v2/).
+
+→ Read the [Brain v2 chapter](docs/10l-brain-v2-living-memory.md) first.
 
 ---
 

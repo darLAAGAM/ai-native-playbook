@@ -6,6 +6,13 @@ License reminder: **Free to use, attribution requested.**
 
 ---
 
+## 2026-05-12 — Brain v2
+
+- Added 6 new playbook chapters (`docs/10l-` to `docs/10q-`) covering bidirectional brain, capture layer, setup 1-click, master prompt, tasks/outputs/health, public-by-default.
+- Added `skills/brain-v2/` with 6 operational skills.
+- Added `templates/brain-v2/` with filesystem layout, master prompt template, setup scripts, onboarding checklist, L0-L3 maturity framework, privacy hard-stops.
+- README: new "What's new — Brain v2" section.
+
 ## 2026-05-12 · compAI launch
 
 - **Renamed project to compAI.** OperAI was trademark-conflicting with OpenAI. New name plays on Company + AI = *compai* (compañero/friend in Spanish-Caribbean). 1,239 replacements across 132 files of code, content, and assets. Site URL migration to `usecompai.com` is in progress; meanwhile `usecompai.com` still serves the same content under the new brand.
