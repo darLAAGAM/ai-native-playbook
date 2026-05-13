@@ -108,7 +108,7 @@ Each one maps onto a design decision we made:
 
 ## Where this leaves the brand that deploys the reference system
 
-If you fork `https://github.com/compai-labs/ai-native-playbook` today, you are, by McKinsey's own definition, joining the 1% of organizations operating as decentralized agentic networks. Not aspiring to. **Operating as.**
+If you fork `<public-repo-url>` today, you are, by McKinsey's own definition, joining the 1% of organizations operating as decentralized agentic networks. Not aspiring to. **Operating as.**
 
 That is the claim. The rest of the playbook is the evidence.
 

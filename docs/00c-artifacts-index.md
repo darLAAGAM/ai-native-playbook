@@ -4,7 +4,7 @@
 
 The playbook is the explanation. The artifacts are the parts you can fork.
 
-The repo is public at `https://github.com/compai-labs/ai-native-playbook`. It is published as open educational infrastructure: free to use, attribution requested. That means you can copy the templates, adapt the prompts, rewrite the skills, and use the schemas inside your own company. If you publish derivative work, attribution is requested. There is no warranty.
+The public repository should live under a neutral namespace before launch. It is published as open educational infrastructure: free to use, attribution requested. That means you can copy the templates, adapt the prompts, rewrite the skills, and use the schemas inside your own company. If you publish derivative work, attribution is requested. There is no warranty.
 
 This chapter is the navigation layer for the downloadable pieces.
 
@@ -110,7 +110,7 @@ Read lessons before building. The fastest way to waste time is to repeat known f
 
 ## How to fork
 
-1. Open the repo: `https://github.com/compai-labs/ai-native-playbook`.
+1. Open the repo: `<public-repo-url>`.
 2. Fork it into your own GitHub account or copy the folders you need.
 3. Start from `templates/brain-starter/`, not from the whole playbook.
 4. Rename generic examples into your own domains: product, operations, finance, marketing, customer, retail/channel, people.
