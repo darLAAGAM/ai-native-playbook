@@ -100,7 +100,7 @@ What I am willing to share:
 - We have physical retail, DTC, and wholesale channels
 - I write code, and I think that's a superpower for a brand founder
 
-I didn't set out to sell a product. I set out to solve my own operational problems. The playbook is the byproduct: read it, fork the repo (https://github.com/darLAAGAM/ai-native-playbook), adapt it to your stack, and contact diego@laagam.com only if you want hands-on help.
+I didn't set out to sell a product. I set out to solve my own operational problems. The playbook is the byproduct: read it, fork the repo (https://github.com/compai-labs/ai-native-playbook), adapt it to your stack, and contact hello@usecompai.com only if you want hands-on help.
 
 ---
 

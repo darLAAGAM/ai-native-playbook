@@ -93,7 +93,7 @@ The initial result was concrete:
 | Documents captured | 228/228 |
 | Failures | 0 |
 
-Capture is only phase one. The meeting-intelligence layer then reads `knowledge/meetings/*.md` and promotes durable signals into `knowledge/laagam/meetings-intelligence/`, including `index.md`, `latest.md`, `digests/`, and `domains/`.
+Capture is only phase one. The meeting-intelligence layer then reads `knowledge/meetings/*.md` and promotes durable signals into `knowledge/<company>/meetings-intelligence/`, including `index.md`, `latest.md`, `digests/`, and `domains/`.
 
 Its signal schema includes source, date, domain, type, owner, due date, entities, confidence, sensitivity, and source reference. That schema matters because a meeting note without owner, date, and source can become a vague memory instead of an operational input.
 
@@ -121,11 +121,11 @@ The configuration in the changelog used Google Workspace Domain-Wide Delegation,
 Outputs land in:
 
 ```text
-knowledge/laagam/email-intelligence/index.md
-knowledge/laagam/email-intelligence/latest.md
-knowledge/laagam/email-intelligence/domains/
-knowledge/laagam/email-intelligence/digests/
-knowledge/laagam/email-intelligence/sources/
+knowledge/<company>/email-intelligence/index.md
+knowledge/<company>/email-intelligence/latest.md
+knowledge/<company>/email-intelligence/domains/
+knowledge/<company>/email-intelligence/digests/
+knowledge/<company>/email-intelligence/sources/
 ```
 
 The privacy principle is the important part: the origin account is not enough to make a message relevant. A founder's mailbox contains business and non-business material. The pipeline requires company or business markers and has hard stops for HR-sensitive content, recruiting, candidates, CVs, interviews, payroll, health, maternity/paternity, leaves, family, and personal non-work context.
@@ -154,15 +154,15 @@ Phase 0, `drive-intelligence.py`, is a non-destructive audit. It scans Google Dr
 Outputs include:
 
 ```text
-knowledge/laagam/drive-intelligence/index.md
-knowledge/laagam/drive-intelligence/departments/
-knowledge/laagam/drive-intelligence/contracts.md
-knowledge/laagam/drive-intelligence/corporate_legal.md
-knowledge/laagam/drive-intelligence/retail_projects.md
-knowledge/laagam/drive-intelligence/finance_structural.md
-knowledge/laagam/drive-intelligence/duplicates.md
-knowledge/laagam/drive-intelligence/review-queue.md
-knowledge/laagam/drive-intelligence/inventory/YYYY-MM-DD.json
+knowledge/<company>/drive-intelligence/index.md
+knowledge/<company>/drive-intelligence/departments/
+knowledge/<company>/drive-intelligence/contracts.md
+knowledge/<company>/drive-intelligence/corporate_legal.md
+knowledge/<company>/drive-intelligence/retail_projects.md
+knowledge/<company>/drive-intelligence/finance_structural.md
+knowledge/<company>/drive-intelligence/duplicates.md
+knowledge/<company>/drive-intelligence/review-queue.md
+knowledge/<company>/drive-intelligence/inventory/YYYY-MM-DD.json
 ```
 
 The initial inventory audited 1974 unique files: 172 high priority, 412 medium, 149 low, 1184 archive, 48 existing-pipeline items, 9 restricted, 39 duplicate groups, and 0 account errors.
@@ -222,4 +222,4 @@ Do not copy another company's tokens, accounts, Slack channel list, Drive taxono
 
 A serious first implementation is 6-8 weeks for a consumer SME with one engineer. The first version does not need every connector. It needs the full loop on a few sources.
 
-If you want help, diego@laagam.com. Most don't.
+If you want help, hello@usecompai.com. Most don't.

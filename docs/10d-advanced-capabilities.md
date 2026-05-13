@@ -10,7 +10,7 @@ This chapter documents the specialized capabilities that sit on top of the core 
 
 ## How to Start From This Chapter
 
-Do not install all of this at once. Pick one capability with a measurable baseline, copy the relevant artifact from the repo, run it in read-only mode, and promote it only after a human has reviewed the outputs. The repo is the starting point: https://github.com/darLAAGAM/ai-native-playbook. For hands-on help, use diego@laagam.com.
+Do not install all of this at once. Pick one capability with a measurable baseline, copy the relevant artifact from the repo, run it in read-only mode, and promote it only after a human has reviewed the outputs. The repo is the starting point: https://github.com/compai-labs/ai-native-playbook. For hands-on help, use hello@usecompai.com.
 
 ---
 
@@ -213,7 +213,7 @@ tested_in: 5 deployments, 12,000+ tickets
 
 **Why it's a differentiator:** every new team can start with accumulated wisdom, not a blank slate. Month 1 of a new deployment looks like month 6 of a deployment that started from scratch. This is the compounding lesson — every deployment teaches reusable patterns, as long as the sharing is anonymized and consented.
 
-**Start here:** fork the repo at https://github.com/darLAAGAM/ai-native-playbook, inspect `/operai/pattern-library/`, and adapt only the patterns you can validate in your own data.
+**Start here:** fork the repo at https://github.com/compai-labs/ai-native-playbook, inspect `/operai/pattern-library/`, and adapt only the patterns you can validate in your own data.
 
 ---
 
@@ -277,7 +277,7 @@ The lesson: once you have a working multi-agent system with a shared brain and a
 
 A mature deployment will accumulate dozens of these capabilities over time. Each one solves a specific pain point, none of them require a new agent, and all of them compound into operational leverage that no single-purpose SaaS tool can match.
 
-**Start with one painful workflow, then fork the repo (https://github.com/darLAAGAM/ai-native-playbook) and copy only the capability you can measure. If you need help adapting it to a real stack, contact diego@laagam.com. Add capabilities as you encounter operational pain. In 6 months, you'll have a system that looks nothing like where you started — and that's exactly the point.**
+**Start with one painful workflow, then fork the repo (https://github.com/compai-labs/ai-native-playbook) and copy only the capability you can measure. If you need help adapting it to a real stack, contact hello@usecompai.com. Add capabilities as you encounter operational pain. In 6 months, you'll have a system that looks nothing like where you started — and that's exactly the point.**
 
 ---
 

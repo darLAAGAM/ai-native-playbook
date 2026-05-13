@@ -69,10 +69,10 @@ Read the playbook  →  Fork the repo  →  Run one local workflow  →  Connect
 | Path | Best for | What you do | Output |
 |---|---|---|---|
 | **A. Read** | Founders and operators validating the idea | Read Chapters 1-3, 12, and the relevant agent chapter | A clear decision on whether the architecture fits your business |
-| **B. Fork** | Technical operators | Fork `https://github.com/darLAAGAM/ai-native-playbook` and inspect the artifacts before running anything | A private working copy you can adapt |
+| **B. Fork** | Technical operators | Fork `https://github.com/compai-labs/ai-native-playbook` and inspect the artifacts before running anything | A private working copy you can adapt |
 | **C. Local pilot** | Teams with one painful workflow | Run one agent in shadow mode against copied/exported data | Draft outputs, no production risk |
 | **D. Production adaptation** | Teams ready to connect live systems | Add one API at a time, keep human approval gates, measure ROI weekly | A controlled deployment that compounds |
-| **E. Hands-on help** | Teams without spare technical capacity | Email `diego@laagam.com` with your stack, channels, and first workflow | Scoped implementation support, not a product checkout |
+| **E. Hands-on help** | Teams without spare technical capacity | Email `hello@usecompai.com` with your stack, channels, and first workflow | Scoped implementation support, not a product checkout |
 
 ---
 
@@ -98,7 +98,7 @@ Write the current human baseline before building: weekly hours, error rate, resp
 Fork the repo and make a private branch for your company:
 
 ```bash
-git clone https://github.com/darLAAGAM/ai-native-playbook
+git clone https://github.com/compai-labs/ai-native-playbook
 cd ai-native-playbook
 ```
 
@@ -252,7 +252,7 @@ Start with read-only evaluation. Let optimization write only after a human appro
 
 ## Getting Help
 
-The default path is self-serve: read the playbook and fork the repo. If you want hands-on implementation help, email **diego@laagam.com** with:
+The default path is self-serve: read the playbook and fork the repo. If you want hands-on implementation help, email **hello@usecompai.com** with:
 
 - Your vertical and revenue band
 - Your stack (commerce, helpdesk, inventory, finance, email, analytics)

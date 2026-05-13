@@ -278,4 +278,4 @@ Put volatile details elsewhere. Vendor-specific API quirks belong in runbooks. D
 
 Review the prompt monthly during the first quarter. Look for rules that agents ignore, rules that cause friction, and rules that should move into a skill or runbook. A prompt is infrastructure, but it is not sacred. Version it, test it, and prune it.
 
-If you want help, diego@laagam.com. Most don't.
+If you want help, hello@usecompai.com. Most don't.

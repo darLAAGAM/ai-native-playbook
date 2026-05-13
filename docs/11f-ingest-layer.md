@@ -262,7 +262,7 @@ At a one-size-fits-all packaged SKU, the economics do not close. A brand that **
 operai-init ingest allow --source notion...
   → Error: source 'notion' is frozen in the public repo (v2.6+).
     See playbook Ch.13 Custom Engagement tier.
-    Contact: diego@laagam.com
+    Contact: hello@usecompai.com
 ```
 
 **As a Custom Ingest Engagement (see Ch.13):**

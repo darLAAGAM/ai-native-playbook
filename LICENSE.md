@@ -10,7 +10,7 @@ The contents of this repository (essays, skills, prompts, templates, integration
 
 ## We ask
 
-- **Attribution.** If you publish or share derivative work that meaningfully builds on this repo, link back to it. A line like *"Adapted from the AI-Native Playbook · https://github.com/darLAAGAM/ai-native-playbook"* is enough.
+- **Attribution.** If you publish or share derivative work that meaningfully builds on this repo, link back to it. A line like *"Adapted from the AI-Native Playbook · https://github.com/compai-labs/ai-native-playbook"* is enough.
 - **No misrepresentation.** Don't claim this work or its derivatives as endorsed by us if it isn't.
 - **Share back if you want.** Improvements, fixes, anonymized patterns from your own deployment — pull requests welcome but never required.
 
@@ -27,4 +27,4 @@ This is operational knowledge from one company. It worked for us. Use your judgm
 
 ---
 
-For hands-on implementation help, write to diego@laagam.com — we work with up to three businesses at a time.
+For hands-on implementation help, write to hello@usecompai.com — we work with up to three businesses at a time.

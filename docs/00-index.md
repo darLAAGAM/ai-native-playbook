@@ -1,7 +1,7 @@
 # The Compound Operations Model
 ## An Open-Source AI Operations Playbook for Consumer SMEs
 
-**By Compai** · Open-source educational portfolio · Built inside a profitable brand growing 50%+ annually · Repo: https://github.com/darLAAGAM/ai-native-playbook (temporary placeholder before the future github.com/ai-native namespace)
+**By Compai** · Open-source educational portfolio · Built inside a profitable brand growing 50%+ annually · Repo: https://github.com/compai-labs/ai-native-playbook (temporary placeholder before the future github.com/ai-native namespace)
 
 ---
 
@@ -58,7 +58,7 @@ We've organized this playbook around the open operating model used in the refere
 | 10c | [The MCP Server](10c-mcp-server.md) | How your entire team gets AI superpowers — 44 tools, zero setup |
 | 10d | [Advanced Operational Capabilities](10d-advanced-capabilities.md) | 15 specialized features that compound over time — AutoResearch, LLM Council, Pattern Library, and more |
 | | **— Implementation —** | |
-| 11a | [Implementation Paths](11-implementation.md) | Read the playbook → fork the repo → run locally → adapt with human review → ask diego@laagam.com for hands-on help |
+| 11a | [Implementation Paths](11-implementation.md) | Read the playbook → fork the repo → run locally → adapt with human review → ask hello@usecompai.com for hands-on help |
 | 11b | [Lessons from Production](11b-production-lessons.md) | 32 lessons: OAuth failures, memory cleanup, model routing, anti-injection hardening, OpenClaw vs systemd, and more |
 | 11c | [OpenClaw Runtime Setup](11c-openclaw-setup.md) | Agent runtime framework — launchd plists, ChatGPT OAuth, cron scheduling |
 | 11d | [EU AI Act Compliance](11d-eu-ai-act-compliance.md) | Full compliance package — DPIA, AI System Register, Annex III guardrails, Article 50 transparency |
@@ -86,4 +86,4 @@ We've organized this playbook around the open operating model used in the refere
 
 *This playbook is a living document. The system it describes is in production and evolving daily. When we learn something new, we update the playbook.*
 
-**Version 2.0** · 12 April 2026 — EU AI Act fully compliant (24/24 items, DPIA + AI System Register documented), honest 18:1 ROI with auditable math (€77K value / €4.2K cost), 32 production lessons, 15+ advanced capabilities (Punta de Flecha adversarial cross-model deliberation, AutoResearch, LLM Council, Pattern Library live), ChatGPT OAuth model strategy (5 agents at €0 incremental), anti-prompt-injection hardening across all SOULs, ACK rule fleet-wide, HR guardrails against Annex III high-risk uses, CS Article 50 transparency disclaimer deployed. Live at **usecompai.com** with public dashboard and free playbook. Fork the repo at https://github.com/darLAAGAM/ai-native-playbook, or contact **diego@laagam.com** for hands-on implementation help.
+**Version 2.0** · 12 April 2026 — EU AI Act fully compliant (24/24 items, DPIA + AI System Register documented), honest 18:1 ROI with auditable math (€77K value / €4.2K cost), 32 production lessons, 15+ advanced capabilities (Punta de Flecha adversarial cross-model deliberation, AutoResearch, LLM Council, Pattern Library live), ChatGPT OAuth model strategy (5 agents at €0 incremental), anti-prompt-injection hardening across all SOULs, ACK rule fleet-wide, HR guardrails against Annex III high-risk uses, CS Article 50 transparency disclaimer deployed. Live at **usecompai.com** with public dashboard and free playbook. Fork the repo at https://github.com/compai-labs/ai-native-playbook, or contact **hello@usecompai.com** for hands-on implementation help.

@@ -135,4 +135,4 @@ A realistic first deployment for a consumer SME is 6-8 weeks with one engineer o
 
 You can compress or expand that timeline based on your stack, but do not remove the lifecycle layers. Without them, you have a better wiki, not operational memory.
 
-If you want help, diego@laagam.com. Most don't.
+If you want help, hello@usecompai.com. Most don't.

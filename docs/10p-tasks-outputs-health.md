@@ -64,7 +64,7 @@ knowledge/<company>/_templates/
   health-report.md
 ```
 
-In the reference deployment, these paths lived under `knowledge/laagam/`. For a portable fork, keep the shape and change the namespace. Do not copy company-specific folder names, employees, tokens, or data.
+In the reference deployment, these paths lived under `knowledge/<company>/`. For a portable fork, keep the shape and change the namespace. Do not copy company-specific folder names, employees, tokens, or data.
 
 The states are deliberately simple.
 
@@ -231,7 +231,7 @@ A capability gap is a known inability of the system. It should be logged, not ha
 The reference world model added `brain_capability_gap` and recorded a concrete first gap: `skill-propagation-to-mac-mini`. The blocker was SSH failing with `Too many authentication failures`, which prevented skill propagation to Mac Mini agents. The gap created a task at:
 
 ```text
-knowledge/laagam/_tasks/todo/2026-05-12-capability-gap-skill-propagation-to-mac-mini.md
+knowledge/<company>/_tasks/todo/2026-05-12-capability-gap-skill-propagation-to-mac-mini.md
 ```
 
 That is the right pattern. Instead of saying "some agents might not have the latest skills," the system recorded the gap, source, blocker, and task.
@@ -258,12 +258,12 @@ The world model is the layer that turns operational traces into current company 
 The reference MVP created:
 
 ```text
-knowledge/laagam/_world-model/README.md
-knowledge/laagam/_world-model/current-state.md
-knowledge/laagam/_world-model/customer-signal.md
-knowledge/laagam/_world-model/capabilities.md
-knowledge/laagam/_world-model/capability-gaps.md
-knowledge/laagam/_world-model/dri-map.md
+knowledge/<company>/_world-model/README.md
+knowledge/<company>/_world-model/current-state.md
+knowledge/<company>/_world-model/customer-signal.md
+knowledge/<company>/_world-model/capabilities.md
+knowledge/<company>/_world-model/capability-gaps.md
+knowledge/<company>/_world-model/dri-map.md
 ```
 
 A portable fork should use the same shape under `knowledge/<company>/_world-model/`.
@@ -278,7 +278,7 @@ A portable fork should use the same shape under `knowledge/<company>/_world-mode
 
 `dri-map.md` should map domains to directly responsible individuals or teams. Agents need to know who owns finance, CS, retail, merchandising, marketing, operations, HR, and technical infrastructure.
 
-The reference refresh tool, `/usr/local/bin/laagam-world-model-refresh.py`, is called by `laagam-world-model-refresh.timer` every Monday at 08:30 Europe/Madrid. The exact timer can change, but weekly refresh is a good baseline. Also allow manual refresh after major events: new integration, reorg, product launch, policy change, or incident.
+The reference refresh tool, `/usr/local/bin/company-world-model-refresh.py`, is called by `company-world-model-refresh.timer` every Monday at 08:30 Europe/Madrid. The exact timer can change, but weekly refresh is a good baseline. Also allow manual refresh after major events: new integration, reorg, product launch, policy change, or incident.
 
 The world model should be fed by completed tasks, reviewed outputs, decisions, health issues, customer signals, meeting intelligence, email intelligence, Drive digests, and capability gaps. It should not be authored from vibes.
 
@@ -354,4 +354,4 @@ Add sophistication only when the pain is real: labels when search is hard, a das
 
 The principle is state before scale. If the team cannot see task state, output state, and system health on a small corpus, adding more capture sources will only hide the problem under more text.
 
-If you want help, diego@laagam.com. Most don't.
+If you want help, hello@usecompai.com. Most don't.

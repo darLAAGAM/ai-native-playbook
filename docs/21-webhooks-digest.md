@@ -8,6 +8,10 @@ Runtime v3.0-beta (Ch.20) shipped the autonomous daemon. Events arrived, sub-age
 
 v3.0 stable removes that last manual step. A production HTTP receiver runs on the brand's VPS, accepts authenticated webhooks from four major helpdesks, and drops canonical events straight into the factory queue. Plus: a daily Slack digest the founder actually reads.
 
+## Prompt-injection boundary
+
+HMAC verification proves the webhook came from the configured provider; it does not make the ticket body trustworthy. `subject`, `body`, `raw_ticket`, comments, attachments, links, and customer metadata remain untrusted data. The runtime must wrap them as data, ignore instructions inside them, and only execute actions from the domain allowlist. High-impact outputs stay in the review queue until a human approves them.
+
 ## The two new services
 
 | Service | Port | Systemd unit | Purpose |

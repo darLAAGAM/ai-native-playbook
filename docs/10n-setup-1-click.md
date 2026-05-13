@@ -35,11 +35,11 @@ irm https://your-mcp/setup.ps1 | iex
 In the reference deployment, the live commands pointed at the company's MCP domain:
 
 ```bash
-curl -fsSL https://mcp.laigam.com/setup.sh | bash
+curl -fsSL https://your-mcp.example/setup.sh | bash
 ```
 
 ```powershell
-irm https://mcp.laigam.com/setup.ps1 | iex
+irm https://your-mcp.example/setup.ps1 | iex
 ```
 
 For an open-source fork, replace the domain and server name. Do not copy company-specific endpoints or tokens. The pattern is portable; credentials are not.
@@ -325,8 +325,8 @@ For Windows, test PowerShell versions explicitly. `ConvertFrom-Json -AsHashtable
 The reference setup scripts live under the MCP service repo, at a path equivalent to:
 
 ```text
-/root/aurelio-v2/services/laagam-mcp/setup.sh
-/root/aurelio-v2/services/laagam-mcp/setup.ps1
+/opt/company-ai/services/mcp/setup.sh
+/opt/company-ai/services/mcp/setup.ps1
 ```
 
 They are served by the MCP service's Starlette/uvicorn app on port `18820` and exposed through a Cloudflare Tunnel on the public MCP domain. The setup handlers have a rate limit of 60 requests per minute per IP.
@@ -448,4 +448,4 @@ Assign an owner for the setup script. It is easy to treat it as a one-time onboa
 
 Also decide what support means. A setup script should print the config path, the server name, the MCP URL, and the exact next step. When it fails, it should leave the machine in a known state. A non-technical employee should be able to paste the final error into the public AI channel or IT channel and receive help without explaining what MCP is.
 
-If you want help, diego@laagam.com. Most don't.
+If you want help, hello@usecompai.com. Most don't.

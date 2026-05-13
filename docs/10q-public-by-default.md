@@ -214,4 +214,4 @@ This creates proof before enforcement. Employees see real work, not theory. They
 
 The behavior has to be visible before it can be copied. Treat the first two weeks as culture seeding, not compliance.
 
-If you want help, diego@laagam.com. Most don't.
+If you want help, hello@usecompai.com. Most don't.
