@@ -98,7 +98,7 @@ Write the current human baseline before building: weekly hours, error rate, resp
 Fork the repo and make a private branch for your company:
 
 ```bash
-git clone <your-private-fork-url>
+git clone YOUR_PRIVATE_FORK_URL
 cd ai-native-playbook
 ```
 

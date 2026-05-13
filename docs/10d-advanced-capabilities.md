@@ -10,7 +10,7 @@ This chapter documents the specialized capabilities that sit on top of the core 
 
 ## How to Start From This Chapter
 
-Do not install all of this at once. Pick one capability with a measurable baseline, copy the relevant artifact from the repo, run it in read-only mode, and promote it only after a human has reviewed the outputs. The repo is the starting point: <public-repo-url>. For hands-on help, use hello@usecompai.com.
+Do not install all of this at once. Pick one capability with a measurable baseline, copy the relevant artifact from the repo, run it in read-only mode, and promote it only after a human has reviewed the outputs. The public repository is the starting point once the neutral namespace is live. For hands-on help, use hello@usecompai.com.
 
 ---
 

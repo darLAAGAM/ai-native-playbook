@@ -10,7 +10,7 @@ The contents of this repository (essays, skills, prompts, templates, integration
 
 ## We ask
 
-- **Attribution.** If you publish or share derivative work that meaningfully builds on this repo, link back to it. A line like *"Adapted from the AI-Native Playbook · <public-repo-url>"* is enough.
+- **Attribution.** If you publish or share derivative work that meaningfully builds on this repo, link back to it. A line like *"Adapted from the AI-Native Playbook · PUBLIC_REPO_URL"* is enough.
 - **No misrepresentation.** Don't claim this work or its derivatives as endorsed by us if it isn't.
 - **Share back if you want.** Improvements, fixes, anonymized patterns from your own deployment — pull requests welcome but never required.
 

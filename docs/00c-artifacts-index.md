@@ -110,7 +110,7 @@ Read lessons before building. The fastest way to waste time is to repeat known f
 
 ## How to fork
 
-1. Open the repo: `<public-repo-url>`.
+1. Open the public repository once the neutral namespace is live.
 2. Fork it into your own GitHub account or copy the folders you need.
 3. Start from `templates/brain-starter/`, not from the whole playbook.
 4. Rename generic examples into your own domains: product, operations, finance, marketing, customer, retail/channel, people.
