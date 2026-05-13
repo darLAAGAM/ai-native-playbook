@@ -171,7 +171,7 @@ Add Slack to `openclaw.json`:
   "channels": {
     "slack": {
       "enabled": true,
-      "botToken": "xoxb-your-bot-token",
+      "botToken": "SLACK_BOT_TOKEN_PLACEHOLDER",
       "appToken": "xapp-your-app-token"
     }
   }
